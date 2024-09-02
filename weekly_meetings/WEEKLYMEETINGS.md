@@ -5,7 +5,7 @@
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
 
-### Date: 04 September 2024
+## Date: 04 September 2024
 
 
 #### Who did you help this week?
@@ -49,7 +49,7 @@ This space is yours to add to as needed.
 
 
 
-### Date: [Template]
+## Date: [Template]
 
 #### Who did you help this week?
 
