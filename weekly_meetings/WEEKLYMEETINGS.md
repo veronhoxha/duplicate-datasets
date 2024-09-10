@@ -36,7 +36,7 @@
 
 #### What are the agreements after this meeting? 
 
-    - 
+    - Continue working on what I already planned working this coming week.
 
 #### Any other topics
 
