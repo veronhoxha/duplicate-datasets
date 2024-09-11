@@ -2,8 +2,49 @@
 
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
+* [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
+
+
+## Date: 11 September 2024
+
+
+#### Who did you help this week?
+
+    - N/A
+
+#### What helped you this week?
+
+    - GitHub repo shared last week from the project you already started.
+    - Reading literature and stuff related to the topic.
+
+#### What did you achieve?
+
+    - Finished writing the Preliminary Project Statement, read a bit of literature and material around the topic, set up the Kaggle API.
+
+#### What did you struggle with?
+
+    - Kinda having small struggles with Kaggle API, haven't used it before so I am reading documentation and relevant material.
+
+#### What would you like to work on next week?
+
+    - I have no idea for now since I won't have that much time this week, will update this later.
+
+#### Where do you need help from Veronika?
+
+    - Any suggestion on using a specific python version, since you already worked around this project what python version did you use? I am currently on 3.9.6. Asking so I could prevent having issues with libraries.
+    - Is everything okay with the Preliminary Project Statement, any changes need to be made?
+
+#### What are the agreements after this meeting? 
+
+    - 
+
+#### Any other topics
+
+    - I will be attending an event in London next week on 18.09.2024 so I won't be in Copenhagen and I can't attend the meeting and will have almost little to time to work this week because I also have a childhood friend visiting me on the weekend.
+
+
 
 ## Date: 04 September 2024
 
