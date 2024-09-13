@@ -42,7 +42,7 @@
 
 #### Any other topics
 
-    - I will be attending an event in London next week on 18.09.2024 so I won't be in Copenhagen and I can't attend the meeting and will have almost little to time to work this week because I also have a childhood friend visiting me on the weekend.
+    - I will be attending an event in London next week on 18.09.2024 so I won't be in Copenhagen and I can't attend the meeting and will have almost little to no time to work this week because I also have a childhood friend visiting me on the weekend.
 
 
 
