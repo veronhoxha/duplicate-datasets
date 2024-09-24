@@ -3,13 +3,15 @@
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
 
+
+* [25 September 2024](#date-25-september-2024)
 * [18 September 2024](#date-18-september-2024)
 * [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
 
 
-## Date: 18 September 2024
+## Date: 25 September 2024
 
 
 #### Who did you help this week?
@@ -18,31 +20,37 @@
 
 #### What helped you this week?
 
-    - N/A
+    - Reading some material about Crossiant and Kaggle API.
 
 #### What did you achieve?
 
-    - N/A
+    - Got the metadata in crossiant format for all datasets in Kaggle which have the word "ISIC" in the title and saved it in a csv file.
+    - Did some basic exploration of the data to understand what's going on with those duplicate datasets.
+    - Did two scatter plots to idenfity if there is any correlation between contentSize VS downloadCount and contentSize VS usabilityRating.
+    - Submitted my Prelimary Problem Statement :). 
 
 #### What did you struggle with?
 
-    - N/A
+    - Well I spent a bit more time to get the metadata in crossiant format since I haven't worked with it before.
 
 #### What would you like to work on next week?
 
-    - A little bit of everything, I will need to try to catch up a bit hopefully.
+    - Get the data from the orginial dataset and try to compare it randomly with one of the duplicate datasets just for inital check.
+    - Try to find/read some literature about duplicate investigation in image datasets.
+    - Start writing in overleaf report :).
 
 #### Where do you need help from Veronika?
 
-    - N/A
+    - Is there a specific format for the coding part, does it matter how I write my code? Should I structure so it looks nice with titles and stuff ? 
+    - Can we have a quick look in which dataset of ISIC to pick as the original one from their official website ?
 
 #### What are the agreements after this meeting? 
 
-    - N/A
+    - It will be filled after the meeting.
 
 #### Any other topics
 
-    - I didn't have the time to work this week since I was away of Copenhagen.
+    - It would be great if you could explain the process of contributing and co-authoring the paper as I mentioned in the previous emails.
 
 
 
