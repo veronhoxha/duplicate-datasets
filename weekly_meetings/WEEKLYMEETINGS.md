@@ -20,18 +20,18 @@
 
 #### What helped you this week?
 
-    - Reading some material about Crossiant and Kaggle API.
+    - Reading some material about Croissant and Kaggle API.
 
 #### What did you achieve?
 
-    - Got the metadata in crossiant format for all datasets in Kaggle which have the word "ISIC" in the title and saved it in a csv file.
+    - Got the metadata in croissant format for all datasets in Kaggle which have the word "ISIC" in the title and saved it in a csv file.
     - Did some basic exploration of the data to understand what's going on with those duplicate datasets.
     - Did two scatter plots to idenfity if there is any correlation between contentSize VS downloadCount and contentSize VS usabilityRating.
     - Submitted my Prelimary Problem Statement :). 
 
 #### What did you struggle with?
 
-    - Well I spent a bit more time to get the metadata in crossiant format since I haven't worked with it before.
+    - Well I spent a bit more time to get the metadata in croissant format since I haven't worked with it before.
 
 #### What would you like to work on next week?
 
@@ -46,7 +46,13 @@
 
 #### What are the agreements after this meeting? 
 
-    - It will be filled after the meeting.
+    - Get both lists not only the ones that have ISIC word in the title, does the description if any that is for ISIC, do a histogram for how many have isic word in a description and title
+    - For the plot log the downloadCount for x-axis and color the usabilityRating for the ones that are lower closer to red and the higer ones leave it green 
+    - Make a csv file with all the years information and then pick one of the earlier years
+    - Reasons which papers use which datasets (find some papers that use ISIC datasets and do a literature review)
+    - Carbon footprint of storing those datasets
+    - Get a data when they where uploaded to have a plot with timeline (would have been a nice plot)
+    - 
 
 #### Any other topics
 
