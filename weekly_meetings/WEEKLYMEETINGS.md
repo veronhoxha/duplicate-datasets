@@ -3,12 +3,48 @@
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
 
-
+* [02 October 2024](#date-02-october-2024)
 * [25 September 2024](#date-25-september-2024)
 * [18 September 2024](#date-18-september-2024)
 * [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
+
+
+
+# Date: 02 October 2024
+
+
+#### Who did you help this week?
+
+    - N/A
+
+#### What helped you this week?
+
+    - 
+
+#### What did you achieve?
+
+    - 
+
+#### What did you struggle with?
+
+    - 
+
+#### What would you like to work on next week?
+
+    - 
+#### Where do you need help from Veronika?
+
+    -
+#### What are the agreements after this meeting? 
+
+    - 
+#### Any other topics
+
+    - 
+
+
 
 
 ## Date: 25 September 2024
