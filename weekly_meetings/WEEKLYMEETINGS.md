@@ -46,13 +46,13 @@
 
 #### What are the agreements after this meeting? 
 
-    - Get both lists not only the ones that have ISIC word in the title, does the description if any that is for ISIC, do a histogram for how many have isic word in a description and title
-    - For the plot log the downloadCount for x-axis and color the usabilityRating for the ones that are lower closer to red and the higer ones leave it green 
-    - Make a csv file with all the years information and then pick one of the earlier years
-    - Reasons which papers use which datasets (find some papers that use ISIC datasets and do a literature review)
-    - Carbon footprint of storing those datasets
-    - Get a data when they where uploaded to have a plot with timeline (would have been a nice plot)
-    - 
+    - Get both lists, not only the ones that have ISIC word in the title, so the ones that have the word ISIC in description as well, if any.
+    - Do a plot for how many have ISIC word in a description and title and compare.
+    - For the scatter plot, log the downloadCount for x-axis and color the dots with condition that if usabilityRating is lower color the dots closer to red color if the usabilityRating is high color them green (leave them how they are).
+    - Make a csv file with all the information of ISIC datasets through years and then pick one of the earlier years for comparison.
+    - Find which papers use which datasets of ISIC if any (literature review).
+    - Maybe a look into the carbon footprint of storing those datasets.
+    - Try to get the info when those duplicate datasets where uploaded in Kaggle, have kinda plot with timelines.
 
 #### Any other topics
 
