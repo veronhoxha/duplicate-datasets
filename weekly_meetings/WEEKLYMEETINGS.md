@@ -21,29 +21,33 @@
 
 #### What helped you this week?
 
-    - 
+    - The talk from the last meeting we had helped me quite a lot in some ideas for this week but also for the future.
 
 #### What did you achieve?
 
-    - 
+    - Updated the scatter plot with log scale and included the usabilityRating condition (if usabilityRating > 0.5 then I color the dot green if it's smaller then I leave it red).
+    - Made a lineplot to see how the numbers of datasets with "ISIC" word in the title increases over years in Kaggle (could be changed to monthly as well).
+    - Started just writing a bit on overleaf to break the ice. 
 
 #### What did you struggle with?
 
-    - 
+    - Nothing something to be specfically mentioned.
 
 #### What would you like to work on next week?
 
-    - 
+    -  Will keep having a look into the original data and duplicates and will see during the week if there is something else. Can't think of something concrete right now.
+
 #### Where do you need help from Veronika?
 
-    -
+    - What do you think of the new plots ?
+
 #### What are the agreements after this meeting? 
 
-    - 
+    - Will be filled after the meeting.
+
 #### Any other topics
 
-    - 
-
+    - N/A
 
 
 
