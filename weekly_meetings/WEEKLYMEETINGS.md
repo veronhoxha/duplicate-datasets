@@ -3,12 +3,60 @@
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
 
+* [09 October 2024](#date-09-october-2024)
 * [02 October 2024](#date-02-october-2024)
 * [25 September 2024](#date-25-september-2024)
 * [18 September 2024](#date-18-september-2024)
 * [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
+
+
+
+# Date: 09 October 2024
+
+
+
+#### Who did you help this week?
+
+    - N/A
+
+#### What helped you this week?
+
+    - Making the plan/TO-DO list of what I see myself doing until the end of this research.
+
+#### What did you achieve?
+
+    - I made a TO-DO plan to follow because I felt lost and didn't know my next step.
+    - Updated the old plots using the Plotly library and now they look so much better.
+    - Made a csv file with all the information of orginal ISIC datasets through the years (didn't include 2024 one because it is so new like from one month ago and the competition just finished and there is still no information when it comes to test data size.)
+    - Identified potential duplicates by comparing dataset sizes (contentSize) and matching the years mentioned in the names of both datasets.
+
+    - [ ] Carbon footprint of storing all those datasets in Kaggle.
+   
+#### What did you struggle with?
+
+    - Thinking about what would be the most logical comparison of original and duplicate datasets, and I think I got what I wanted but need to discuss it.
+
+#### What would you like to work on next week?
+
+    - If agree on the plan, I will start downloading the data and start applying one of the methods for investigating duplicates more in detail (I plan to spend a week/week and a half for each method, if everything goes well).
+    - Make a method section in overleaf and start writing about what that method is about and how I use it in my study.
+
+#### Where do you need help from Veronika?
+
+    - What are your thoughts on the idea of investigating the potential duplicates identified from the initial contentSize and year comparison?
+    - Can we just go through my TO-DO plan and check if we agree on at least as a plan (check weeklymeetings/TO_DO_PLAN_TO_FOLLOW.md)?
+    - What do you think of the new plot (raincloud plot somehow) of the contentSize vs usabilityRating (you cannot see it on GitHub because it doesn't support the "Plotly" library that I used for making the plot. I can show it to you in the meeting)? I think this plot is a good one and it actually would be a good asset in the report. 
+    - Do you know when my exam is going to be? 
+
+#### What are the agreements after this meeting? 
+
+    - To be filled out after the meeting.
+
+#### Any other topics
+
+    - N/A
 
 
 
@@ -35,7 +83,7 @@
 
 #### What would you like to work on next week?
 
-    -  I will keep looking into the original data and duplicates and see if there is something else during the week. Can't think of something concrete right now.
+    - I will keep looking into the original data and duplicates and see if there is something else during the week. Can't think of something concrete right now.
 
 #### Where do you need help from Veronika?
 
@@ -43,7 +91,9 @@
 
 #### What are the agreements after this meeting? 
 
-    - Will be filled after the meeting.
+    - Try a raincloud plot for the latest scatter plot with usabilityRating and downloadCount.
+    - Do different .tex files for different sections in Overleaf.
+    - Check out web archive.
 
 #### Any other topics
 
