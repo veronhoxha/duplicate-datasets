@@ -1,5 +1,5 @@
-Kaggle Dataset Name,Kaggle Size (MB),Original Dataset Name,Original Size (MB),Size Difference (%)
-ISIC-2017,12288.0,ISIC 2017 Challenge,12708.0,3.31
-ISIC 2017 Original Dataset,12288.0,ISIC 2017 Challenge,12708.0,3.31
-ISIC Challenge Dataset-2020,30720.0,ISIC 2020 Challenge,29700.0,3.43
-ISIC 2017 Task 3 Dataset,12288.0,ISIC 2017 Challenge,12708.0,3.31
+Kaggle Dataset Name,Kaggle Dataset URL,Kaggle Size (MB),Original Dataset Name,Orginal Dataset URL,Original Size (MB),Size Difference (%)
+ISIC-2017,https://www.kaggle.com/johnchfr/isic-2017,12288.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,3.31
+ISIC 2017 Original Dataset,https://www.kaggle.com/mahmudulhasantasin/isic-2017-original-dataset,12288.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,3.31
+ISIC Challenge Dataset-2020,https://www.kaggle.com/sumaiyabinteshahid/isic-challenge-dataset-2020,30720.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,3.43
+ISIC 2017 Task 3 Dataset,https://www.kaggle.com/srijankundu/isic-2017-task-3-dataset,12288.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,3.31
