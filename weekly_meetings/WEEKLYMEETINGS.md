@@ -31,8 +31,6 @@
     - Updated the old plots using the Plotly library and now they look so much better.
     - Made a csv file with all the information of orginal ISIC datasets through the years (didn't include 2024 one because it is so new like from one month ago and the competition just finished and there is still no information when it comes to test data size.)
     - Identified potential duplicates by comparing dataset sizes (contentSize) and matching the years mentioned in the names of both datasets.
-
-    - [ ] Carbon footprint of storing all those datasets in Kaggle.
    
 #### What did you struggle with?
 
@@ -41,11 +39,12 @@
 #### What would you like to work on next week?
 
     - If agree on the plan, I will start downloading the data and start applying one of the methods for investigating duplicates more in detail (I plan to spend a week/week and a half for each method, if everything goes well).
+    - Carbon footprint of storing all those datasets in Kaggle (I started looking this week but couldn't find anything so I contacted one of the associate proffesors if she has information about this).
     - Make a method section in overleaf and start writing about what that method is about and how I use it in my study.
 
 #### Where do you need help from Veronika?
 
-    - What are your thoughts on the idea of investigating the potential duplicates identified from the initial contentSize and year comparison?
+    - What are your thoughts on the idea of investigating the potential duplicates identified from the initial contentSize and year comparison (I can elaborate this more in the meeting)?
     - Can we just go through my TO-DO plan and check if we agree on at least as a plan (check weeklymeetings/TO_DO_PLAN_TO_FOLLOW.md)?
     - What do you think of the new plot (raincloud plot somehow) of the contentSize vs usabilityRating (you cannot see it on GitHub because it doesn't support the "Plotly" library that I used for making the plot. I can show it to you in the meeting)? I think this plot is a good one and it actually would be a good asset in the report. 
     - Do you know when my exam is going to be? 

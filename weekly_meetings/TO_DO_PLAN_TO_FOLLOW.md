@@ -29,11 +29,10 @@ Applying those methods to the images I have downloaded:
 - [ ]  Filename comparison on image names.
 - [ ]  Image dimensions comparison.
 - [ ]  File size of images comparison.
-- [ ]  Identify datasets that have been resized or compressed.
 
 **Pixel-by-Pixel Comparison**
 
-- [ ]  Determine if duplicates are exact copies or if modifications have been made.
+- [ ]  Determine if duplicates are exact copies or if modifications have been made (identify datasets that have been resized or compressed).
 
 **Hashing Techniques**
 
