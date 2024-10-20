@@ -13,7 +13,7 @@ Instead of downloading all duplicate datasets, I was thinking focusing on a **re
 
 Results that I will get from comparison done in contentSize and name matching of original datasets and duplicate ones. I believe that two datasets so the original one and the duplicate one containing the almost the same contentSize and year in the name is a good indication to be investigate more if they are close duplicates.
 
-- [ ]  Choose the duplicate datasets based on results you get from contentSize and name comparison and either download the full dataset or maybe if avaliable just the training/test data (don't want to run in storage problem).
+- [x]  Choose the duplicate datasets based on results you get from contentSize and name comparison and either download the full dataset or maybe if avaliable just the training/test data (don't want to run in storage problem).
 
 ## **Documenting limitations and assumptions**
 
@@ -25,7 +25,7 @@ Applying those methods to the images I have downloaded:
 
 **Image Size Comparison**
 
-- [ ]  Number of images comparison.
+- [x]  Number of images comparison.
 - [ ]  Filename comparison on image names.
 - [ ]  Image dimensions comparison.
 - [ ]  File size of images comparison.

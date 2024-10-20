@@ -3,6 +3,7 @@
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
 
+* [21 October 2024](#date-21-october-2024)
 * [09 October 2024](#date-09-october-2024)
 * [02 October 2024](#date-02-october-2024)
 * [25 September 2024](#date-25-september-2024)
@@ -10,6 +11,47 @@
 * [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
+
+
+# Date: 21 October 2024
+
+
+
+#### Who did you help this week?
+
+    - N/A
+
+#### What helped you this week?
+
+    - N/A
+
+#### What did you achieve?
+
+    - Chose three duplicate datasets for detailed analysis based on results I got from the size and name comparison of the kaggle datasets - selected one in each range of size difference in content size:  1-30%, 30-60% and 60-100%.
+    - Comparison on number of images in train, val, test data was done for the picked datasets.
+    - I had to go back and modify some code stuff I have done which was wrong and it took a bit of my time :).
+   
+#### What did you struggle with?
+
+    - Everything :).
+
+#### What would you like to work on next week?
+
+    - Filename comparison on image names.
+    - Image dimensions comparison.
+    - Write about this method in overleaf (had to do it this week but holiday...)
+
+#### Where do you need help from Veronika?
+
+    - Can't think of something right now.
+
+#### What are the agreements after this meeting? 
+
+    -  To be filled after the meeting.
+
+#### Any other topics
+
+    - I am actually not sure if I will be able to deliver a proper draft by 4th of November somehow, I have another kinda hard project I need to finish in two weeks so I am not sure how much writing can I do in the meantime, would a week later like 11th of November be an option in case I won't be ready for the 4th?
 
 
 
@@ -51,7 +93,13 @@
 
 #### What are the agreements after this meeting? 
 
-    - To be filled out after the meeting.
+    -  Seperate the data sizes (training, test, validation) of the original dataset in csv file.
+    -  Recheck the range of scenarios (1-20%, 20-50%, 50-100%), rank them by the size difference and then pick the top, middle, bottom one.
+    -  You should only mention it in your report (that of course more storage is required etc and it's not "free"), but not go into estimating the carbon footprint of storing the datasets in Kaggle.
+    -  Make something in the project that the procedure is algorithmic.
+    -  Exam is probably not in December, 6-9 january, 20-24 january.
+    -  Send draft for 4nd of November, kinda have the introduction, methods, results ...
+
 
 #### Any other topics
 

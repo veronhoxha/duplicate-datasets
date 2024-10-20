@@ -1,139 +1,139 @@
-Kaggle Dataset Name,Kaggle Dataset URL,Kaggle Size (MB),Original Dataset Name,Orginal Dataset URL,Original Size (MB),Size Difference (%)
-ISIC 2020 JPG 256x256 RESIZED,https://www.kaggle.com/nischaydnk/isic-2020-jpg-256x256-resized,595.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,98.0
-ISIC 2019 JPG 224x224 RESIZED,https://www.kaggle.com/nischaydnk/isic-2019-jpg-224x224-resized,355.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,97.2
-JPEG ISIC 2019 512x512,https://www.kaggle.com/cdeotte/jpeg-isic2019-512x512,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,91.94
-ISIC 2019 TFRecords 512x512,https://www.kaggle.com/cdeotte/isic2019-512x512,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,91.94
-ISIC 2019 JPG 256x256 RESIZED,https://www.kaggle.com/nischaydnk/isic-2019-jpg-256x256-resized,445.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,96.5
-ISIC 2018 JPG 256x256 RESIZED,https://www.kaggle.com/nischaydnk/isic-2018-jpg-256x256-resized,131.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,99.18
-ISIC 2019 TFRecords 256x256,https://www.kaggle.com/cdeotte/isic2019-256x256,420.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,96.69
-ISIC 2019 TFRecords 384x384,https://www.kaggle.com/cdeotte/isic2019-384x384,850.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,93.31
-ISIC 2020 JPG 224x224 RESIZED,https://www.kaggle.com/nischaydnk/isic-2020-jpg-224x224-resized,473.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,98.41
-ISIC 2019 TFRecords 768x768,https://www.kaggle.com/cdeotte/isic2019-768x768,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,75.81
-JPEG ISIC 2019 384x384,https://www.kaggle.com/cdeotte/jpeg-isic2019-384x384,855.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,93.27
-ISIC 2018 JPG 224x224 RESIZED,https://www.kaggle.com/nischaydnk/isic-2018-jpg-224x224-resized,106.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,99.33
-ISIC 2019 Skin Lesion images for classification,https://www.kaggle.com/salviohexia/isic-2019-skin-lesion-images-for-classification,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-JPEG ISIC 2019 256x256,https://www.kaggle.com/cdeotte/jpeg-isic2019-256x256,433.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,96.59
-ISIC 2019 TFRecords 128x128,https://www.kaggle.com/cdeotte/isic2019-128x128,126.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,99.01
-ISIC 2019 TFRecords 192x192,https://www.kaggle.com/cdeotte/isic2019-192x192,254.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,98.0
-JPEG ISIC 2019 768x768,https://www.kaggle.com/cdeotte/jpeg-isic2019-768x768,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,75.81
-ISIC 2019 TFRecords 1024x1024,https://www.kaggle.com/cdeotte/isic2019-1024x1024,5120.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,59.69
-JPEG ISIC 2019 192x192,https://www.kaggle.com/cdeotte/jpeg-isic2019-192x192,267.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,97.9
-JPEG ISIC 2019 128x128,https://www.kaggle.com/cdeotte/jpeg-isic2019-128x128,139.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,98.91
-JPEG ISIC 2019 1024x1024,https://www.kaggle.com/cdeotte/jpeg-isic2019-1024x1024,5120.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,59.69
-ISIC-2017,https://www.kaggle.com/johnchfr/isic-2017,12288.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,3.31
-ISIC 2017,https://www.kaggle.com/awsaf49/isic-2017,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,51.65
-ISIC 2019 ,https://www.kaggle.com/graf10a/isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-ISIC 2019 7 classes,https://www.kaggle.com/gabrielmv/isic-2019-7-classes,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-SIIM-ISIC-2020,https://www.kaggle.com/prashantjeswani/siimisic2020,23552.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,20.7
-aug-isic-2019,https://www.kaggle.com/wajahatiqbalwaji/augisic2019,5120.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,59.69
-isic 2019 and 2020 Melanoma dataset,https://www.kaggle.com/qikangdeng/isic-2019-and-2020-melanoma-dataset,5120.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,59.69
-ISIC 2017/2018,https://www.kaggle.com/rychardguedes/isic-20172018,14336.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,12.81
-isic-2017,https://www.kaggle.com/devbhuyan/isic-2017,29.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,99.77
-Skin Cancer ISIC 2019 & 2020 malignant or benign,https://www.kaggle.com/sallyibrahim/skin-cancer-isic-2019-2020-malignant-or-benign,403.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,96.83
-ISIC-2018,https://www.kaggle.com/trantoanthang/isic-2018,13312.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,16.17
-ISIC 2016 Original Dataset,https://www.kaggle.com/mahmudulhasantasin/isic-2016-original-dataset,832.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,80.28
-SIIM-ISIC-2019,https://www.kaggle.com/prashantjeswani/siim-isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-isic-2016-dataset,https://www.kaggle.com/aliyumuazu/isic2016dataset,826.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,80.42
-"ISIC-2019 skin disease dataset (test ,train, val)",https://www.kaggle.com/mdefajalam/isic-2019-skin-disease,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-ISIC 2016 original resized,https://www.kaggle.com/devbhuyan/isic-2016-original-resized,7.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,99.83
-ISIC 2016 Task 3 Dataset,https://www.kaggle.com/srijankundu/isic-2016-task-3-dataset,826.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,80.42
-ISIC-SEGMENTATION 2016,https://www.kaggle.com/ratneshkumartiwari53/isic-segmentation-2016,831.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,80.3
-Skin Cancer Dataset ISIC 2016 ,https://www.kaggle.com/mdforiduzzamanzihad/skin-cancer-dataset-isic-2016,7.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,99.83
-ISIC 2017 Original Dataset,https://www.kaggle.com/mahmudulhasantasin/isic-2017-original-dataset,12288.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,3.31
-isic 2019 even 1024 cc,https://www.kaggle.com/teeyee314/isic-2019-even-1024-cc,241.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,98.1
-ISIC 2019 - 256x256,https://www.kaggle.com/ziadloo/isic-2019-256x256,325.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,97.44
-ISIC 2020 - 256x256,https://www.kaggle.com/ziadloo/isic-2020-256x256,422.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,98.58
-ISIC 2016 - 256x256,https://www.kaggle.com/ziadloo/isic-2016-256x256,17.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,99.6
-SIIM-ISIC 2020 Melanoma Pre-Processed Dataset,https://www.kaggle.com/scipygaurav/siimisic-2020-melanoma-preprocessed-dataset,7168.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,75.87
-augmented-isic-2019,https://www.kaggle.com/wajahatiqbalwaji/augmentedisic2019,2048.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,83.87
-ISIC 2019 2020 Melanoma Meta and Stats,https://www.kaggle.com/allunia/isic-2019-2020-melanoma-meta-and-stats,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,75.81
-preprocessed 2018 ISIC,https://www.kaggle.com/abidinawres/preprocessed-2018-isic,382.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,97.59
-isic-2016-aug,https://www.kaggle.com/devbhuyan/isic-2016-aug,16.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,99.62
-ISIC 2017 - 256x256,https://www.kaggle.com/ziadloo/isic-2017-256x256,37.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,99.71
-SIIM-ISIC 2020 Melanoma Dataset (10 Folds Split),https://www.kaggle.com/scipygaurav/siimisic-2020-melanoma-dataset-10-folds-split,23552.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,20.7
-isic 2019 size 384 hair removed,https://www.kaggle.com/ajipandas/isic-2019-size-384-hair-removed,755.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,94.06
-isic 2019 odd 2014 cc,https://www.kaggle.com/teeyee314/isic-2019-odd-2014-cc,251.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,98.02
-ISIC-2017-Aug_Training_Data,https://www.kaggle.com/gutuggg/isic2017aug-training-data,998.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,92.15
-ISIC Challenge Dataset-2020,https://www.kaggle.com/sumaiyabinteshahid/isic-challenge-dataset-2020,30720.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,3.43
-preprocessed batches ISIC 2020,https://www.kaggle.com/abidinawres/preprocessed-batches-isic-2020,2048.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,93.1
-Preprocessed Data 2019  ISIC,https://www.kaggle.com/abidinawres/preprocessed-data-2019-isic,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,91.94
-isic 2019 and 2020 Melanoma dataset hair removal,https://www.kaggle.com/qikangdeng/isic-2019-and-2020-melanoma-dataset-hair-removal,6144.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,51.62
-ISIC 2018 (CA-Net Preprocessing),https://www.kaggle.com/wedayyy/isic-2018-ca-net-preprocessing,459.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,97.11
-Dataset ISIC Challenge 2019,https://www.kaggle.com/mrifqibhagas/dataset-isic-challenge-2019,735.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,94.21
-ISIC 2019 Preprocessed Dataset,https://www.kaggle.com/segijaganath/isic-2019-preprocessed-dataset,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,75.81
-"Unet_Segmented(isic 2019,2020)",https://www.kaggle.com/nargeshasanpour/unet-segmentedisic-20192020,534.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,95.8
-ISIC 2019,https://www.kaggle.com/rid1dle/isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-ISIC 2020,https://www.kaggle.com/abdulrehmanraja/isic-2020,23552.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,20.7
-ISIC 2018 Task 3 - 256x256,https://www.kaggle.com/ziadloo/isic-2018-task-3-256x256,157.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,99.01
-"ISIC 2018 Task 1,2 - 256x256",https://www.kaggle.com/ziadloo/isic-2018-task-12-256x256,49.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,99.69
-ISIC 2019 - train - valid - tst,https://www.kaggle.com/eduardomorais/isic-2019-train-valid-tst,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-Melanoma TFRecords 768x768 ISIC 2016,https://www.kaggle.com/ashurali/melanoma-tfrecords-768x768-isic-2016,150.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,96.44
-Melanoma TFRecords 512x512 ISIC 2016,https://www.kaggle.com/ashurali/melanoma-tfrecords-512x512-isic-2016,73.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,98.27
-Melanoma TFRecords 384x384 ISIC 2016,https://www.kaggle.com/ashurali/melanoma-tfrecords-384x384-isic-2016,44.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,98.96
-Melanoma TFRecords 256x256 ISIC 2016,https://www.kaggle.com/ashurali/melanoma-tfrecords-256x256-isic-2016,21.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,99.5
-ISIC-2018-Augment,https://www.kaggle.com/hafidhmuhammadakbar/isic-2018-augment,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,87.1
-ISIC 2018 Skin Lesion,https://www.kaggle.com/rifatahommed/isic-2018-skin-lesion,10240.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,35.52
-ISIC 2019 Segemented,https://www.kaggle.com/hussainmahmood819/isic-2019-segemented,2048.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,83.87
-SIIM External Data ISIC 2019 tfrec 512,https://www.kaggle.com/graf10a/siim-external-data-isic-2019-tfrec-512,2048.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,83.87
-Skin Cancer ISIC Dataset 2018,https://www.kaggle.com/vardhilpatel/skin-cancer-isic-dataset-2018,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,87.1
-ISIC 2019 Pseudo Patient Labels,https://www.kaggle.com/feidawei/isic-2019-pseudo-patient-labels,0.1650390625,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,100.0
-SIIM-ISIC-2020,https://www.kaggle.com/abdulrahmanamukhlif/siimisic2020,14.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,99.95
-ISIC 2016 Task 1 - Training Data,https://www.kaggle.com/santiagodelrey/isic-2016-task-1-training-data,601.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,85.75
-isic 2016,https://www.kaggle.com/jinxufang/isic-2016,831.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,80.3
-ISIC 2017 Task 3 Dataset,https://www.kaggle.com/srijankundu/isic-2017-task-3-dataset,12288.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,3.31
-ISIC 2017 Dataset,https://www.kaggle.com/hoangtruongsegkvar3/isic-2017-dataset,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,51.65
-ISIC 2016 JPEG,https://www.kaggle.com/rickmondal/isic-2016-jpeg,596.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,85.87
-ISIC 2019 JPEG,https://www.kaggle.com/rickmondal/isic-2019-jpeg,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-ISIC 2018 JPEG,https://www.kaggle.com/rickmondal/isic-2018-jpeg,3072.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,80.65
-ISIC 2017 JPEG,https://www.kaggle.com/rickmondal/isic-2017-jpeg,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,51.65
-isic 2019 target,https://www.kaggle.com/jiang0236/isic-2019-target,0.0634765625,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,100.0
-isic 2018 images,https://www.kaggle.com/jiang0236/isic-2018-images,168.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,98.94
-Skin Lesion Dataset (ISIC 2019),https://www.kaggle.com/aammustahid/skin-lesion-dataset-isic-2019,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,91.94
-isic 2019 size 512 hair removed,https://www.kaggle.com/ajipandas/isic-2019-size-512-hair-removed,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,91.94
-skincancer-ISIC-2019,https://www.kaggle.com/viveknarayanuppala/skincancer-isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-ISIC 2017 1 FOLD,https://www.kaggle.com/mahmudulhasantasin/isic-2017-1-fold,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,51.65
-ISIC dataset 2018 0.8 hair-rmved,https://www.kaggle.com/phuctan/isic-dataset-2018,868.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,94.53
-ISIC skin lesion dataset 2016,https://www.kaggle.com/sahiliitj/isic-skin-lesion-dataset-2016,3072.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,27.19
-ISIC 2016 Skin Cancer Segmentation,https://www.kaggle.com/challabhavanisankar/isic-2016-skin-cancer-segmentation,831.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,80.3
-ISIC 2018 Test Data,https://www.kaggle.com/arafatshovon/isic-2018-test-data,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,87.1
-ISIC 2018 Task 3,https://www.kaggle.com/hitman1309/isic-2018-task-3,3072.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,80.65
-isic 2019 and 2020 Melanoma dataset hair addition,https://www.kaggle.com/qikangdeng/isic-2019-and-2020-melanoma-dataset-hair-addition,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-isic-2017-train,https://www.kaggle.com/iuliali/isic-2017-train,5120.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,59.71
-SIIM PNG TFRECORDS 384 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-tfrecords-384-isic-2019-old,2048.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,83.87
-SIIM PNG TFRECORDS 512 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-tfrecords-512-isic-2019-old,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,67.75
-SIIM PNG TFRECORDS 512 ISIC 2019 NEW,https://www.kaggle.com/graf10a/siim-png-tfrecords-512-isic-2019-new,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,67.75
-ISIC 2020,https://www.kaggle.com/shakiburrahmanasif/isic-2020,32768.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,10.33
-ISIC - 2019,https://www.kaggle.com/karoladel/isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-ISIC 2018 Task 2: Lesion Attribute Detection,https://www.kaggle.com/thanhngnguyn/isic-2018-task-2-lesion-attribute-detection,13312.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,16.17
-ISIC challenge dataset 2020(from isic archive),https://www.kaggle.com/manasvi12/isic-challenge-dataset-2020from-isic-archive,17408.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,41.39
-ISIC 2017 5 folded,https://www.kaggle.com/mahmudulhasantasin/isic-2017-5-folded,58.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,99.54
-ISIC 2018 for baseline (original images).zip,https://www.kaggle.com/phuctan/isic-2018-for-baseline-original-imageszip,1024.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,93.55
-SIIM PNG TFRECORDS 640 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-tfrecords-640-isic-2019-old,6144.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,51.62
-SIIM PNG TFRECORDS 768 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-tfrecords-768-isic-2019-old,8192.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,35.5
-SIIM PNG CC TFRECORDS 384 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-384-isic-2019-old,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,75.81
-SIIM PNG CC TFRECORDS 512 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-512-isic-2019-old,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,67.75
-SIIM PNG CC TFRECORDS 512 ISIC 2019 NEW,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-512-isic-2019-new,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,67.75
-UNet Project Dataset ISIC 2017,https://www.kaggle.com/aquillanatus/unet-project-dataset-isic-2017,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,51.65
-Deep Features Skin Cancer ISIC 2017,https://www.kaggle.com/usmansadiq/deep-features-skin-cancer-isic-2017,1.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,99.99
-ISIC 2018 for traning (hair removed),https://www.kaggle.com/phuctan/isic-2018-for-traning-hair-removed,466.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,97.07
-ISIC Challenge 2019 Dataset,https://www.kaggle.com/revandhov/isic-challenge-2019-dataset,430.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,96.61
-ISIC 2019 Test Data,https://www.kaggle.com/shashwatsarkar/isic-2019-test-data,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,67.75
-ISIC-2018-balanced-128X128,https://www.kaggle.com/shawon250/isic-2018-balanced-128x128,367.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,97.69
-Isic-2018 task 1,https://www.kaggle.com/anangfath/isic-2018-task-1,10240.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,35.52
-ISIC 2018 TASK 3,https://www.kaggle.com/manojdeep/isic-2018-task-3,3072.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,80.65
-ISIC 2019 Test Data,https://www.kaggle.com/nandaguntupalli/isic-2019-test-data,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,67.75
-ISIC-2019 skin disease labelled dataset ( 8 cls),https://www.kaggle.com/mdefajalam/isic-2019-skin-disease-labelled,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,27.43
-SIIM PNG CC TFRECORDS 640 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-640-isic-2019-old,6144.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,51.62
-SIIM PNG CC TFRECORDS 768 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-768-isic-2019-old,8192.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,35.5
-isic 2020 new,https://www.kaggle.com/shakibrahman15/isic-2020-new,23552.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,20.7
-ISIC-2018-CLEAN,https://www.kaggle.com/quanghungdang/isic-2018,11264.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,29.07
-ISIC-2017-Seg,https://www.kaggle.com/saptarshipani/isic-2017-seg,5120.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12708.0,59.71
-ISIC 2016 Skin Cancer dataset,https://www.kaggle.com/tushartalukder/isic2016,832.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,80.28
-ISIC 2018 Segment + Removal Hair,https://www.kaggle.com/hungbacktracking/isic-2018-segment-removal-hair,801.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,94.96
-HAM10000 dataset ISIC dataset 2018,https://www.kaggle.com/dharjoy/ham10000-dataset-isic-dataset-2018,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,87.1
-ISIC 2018 for training (hair rmv n crop images),https://www.kaggle.com/phuctan/isic-2018-for-training-hair-rmv-n-crop-images,285.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,98.21
-ISIC2019-2018-ITA-Based-Grouped,https://www.kaggle.com/sanazmovahed/isic2019-2018-ita-from-colab2,9216.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,41.96
-ham10000 skin cancer isic 2018 dataset,https://www.kaggle.com/dharjoy/ham10000-skin-cancer-isic-2018-dataset,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,15880.0,87.1
-SIIM-ISIC-Melanoma-Classification-2020-Resized1024,https://www.kaggle.com/chirag94/siimisicmelanomaclassification2020resized1024,3072.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,29700.0,89.66
-ISIC 2016 ORIGINAL DATASET 5 FOLDED WITH LABEL,https://www.kaggle.com/mahmudulhasantasin/isic-2016-original-dataset-5-folded-with-label,3072.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4219.0,27.19
-ISIC 2019 Train 384x384 Inpainted Stratified tfrec,https://www.kaggle.com/kiranthomascherian/isic-2019-train-384x384-inpainted-stratified-tfrec,674.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,12700.0,94.69
+Kaggle Dataset Name,Kaggle Dataset URL,Kaggle Size (MB),Original Dataset Name,Orginal Dataset URL,Original Size (MB),Size Difference (%),Size Difference Category (%)
+ISIC 2020 JPG 256x256 RESIZED,https://www.kaggle.com/nischaydnk/isic-2020-jpg-256x256-resized,595.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,98.04,60-100%
+ISIC 2019 JPG 224x224 RESIZED,https://www.kaggle.com/nischaydnk/isic-2019-jpg-224x224-resized,355.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,97.3,60-100%
+JPEG ISIC 2019 512x512,https://www.kaggle.com/cdeotte/jpeg-isic2019-512x512,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,92.22,60-100%
+ISIC 2019 TFRecords 512x512,https://www.kaggle.com/cdeotte/isic2019-512x512,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,92.22,60-100%
+ISIC 2019 JPG 256x256 RESIZED,https://www.kaggle.com/nischaydnk/isic-2019-jpg-256x256-resized,445.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,96.62,60-100%
+ISIC 2018 JPG 256x256 RESIZED,https://www.kaggle.com/nischaydnk/isic-2018-jpg-256x256-resized,131.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,99.19,60-100%
+ISIC 2019 TFRecords 256x256,https://www.kaggle.com/cdeotte/isic2019-256x256,420.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,96.81,60-100%
+ISIC 2019 TFRecords 384x384,https://www.kaggle.com/cdeotte/isic2019-384x384,850.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,93.54,60-100%
+ISIC 2020 JPG 224x224 RESIZED,https://www.kaggle.com/nischaydnk/isic-2020-jpg-224x224-resized,473.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,98.44,60-100%
+ISIC 2019 TFRecords 768x768,https://www.kaggle.com/cdeotte/isic2019-768x768,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,76.65,60-100%
+JPEG ISIC 2019 384x384,https://www.kaggle.com/cdeotte/jpeg-isic2019-384x384,855.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,93.5,60-100%
+ISIC 2018 JPG 224x224 RESIZED,https://www.kaggle.com/nischaydnk/isic-2018-jpg-224x224-resized,106.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,99.35,60-100%
+ISIC 2019 Skin Lesion images for classification,https://www.kaggle.com/salviohexia/isic-2019-skin-lesion-images-for-classification,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+JPEG ISIC 2019 256x256,https://www.kaggle.com/cdeotte/jpeg-isic2019-256x256,433.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,96.71,60-100%
+ISIC 2019 TFRecords 128x128,https://www.kaggle.com/cdeotte/isic2019-128x128,126.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,99.04,60-100%
+ISIC 2019 TFRecords 192x192,https://www.kaggle.com/cdeotte/isic2019-192x192,254.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,98.07,60-100%
+JPEG ISIC 2019 768x768,https://www.kaggle.com/cdeotte/jpeg-isic2019-768x768,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,76.65,60-100%
+ISIC 2019 TFRecords 1024x1024,https://www.kaggle.com/cdeotte/isic2019-1024x1024,5120.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,61.08,60-100%
+JPEG ISIC 2019 192x192,https://www.kaggle.com/cdeotte/jpeg-isic2019-192x192,267.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,97.97,60-100%
+JPEG ISIC 2019 128x128,https://www.kaggle.com/cdeotte/jpeg-isic2019-128x128,139.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,98.94,60-100%
+JPEG ISIC 2019 1024x1024,https://www.kaggle.com/cdeotte/jpeg-isic2019-1024x1024,5120.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,61.08,60-100%
+ISIC-2017,https://www.kaggle.com/johnchfr/isic-2017,12288.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,0.57,1-30%
+ISIC 2017,https://www.kaggle.com/awsaf49/isic-2017,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,50.28,30-60%
+ISIC 2019 ,https://www.kaggle.com/graf10a/isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+ISIC 2019 7 classes,https://www.kaggle.com/gabrielmv/isic-2019-7-classes,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+SIIM-ISIC-2020,https://www.kaggle.com/prashantjeswani/siimisic2020,23552.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,22.56,1-30%
+aug-isic-2019,https://www.kaggle.com/wajahatiqbalwaji/augisic2019,5120.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,61.08,60-100%
+isic 2019 and 2020 Melanoma dataset,https://www.kaggle.com/qikangdeng/isic-2019-and-2020-melanoma-dataset,5120.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,61.08,60-100%
+ISIC 2017/2018,https://www.kaggle.com/rychardguedes/isic-20172018,14336.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,16.01,1-30%
+isic-2017,https://www.kaggle.com/devbhuyan/isic-2017,29.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,99.77,60-100%
+Skin Cancer ISIC 2019 & 2020 malignant or benign,https://www.kaggle.com/sallyibrahim/skin-cancer-isic-2019-2020-malignant-or-benign,403.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,96.94,60-100%
+ISIC-2018,https://www.kaggle.com/trantoanthang/isic-2018,13312.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,18.14,1-30%
+ISIC 2016 Original Dataset,https://www.kaggle.com/mahmudulhasantasin/isic-2016-original-dataset,832.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,82.53,60-100%
+SIIM-ISIC-2019,https://www.kaggle.com/prashantjeswani/siim-isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+isic-2016-dataset,https://www.kaggle.com/aliyumuazu/isic2016dataset,826.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,82.66,60-100%
+"ISIC-2019 skin disease dataset (test ,train, val)",https://www.kaggle.com/mdefajalam/isic-2019-skin-disease,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+ISIC 2016 original resized,https://www.kaggle.com/devbhuyan/isic-2016-original-resized,7.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,99.85,60-100%
+ISIC 2016 Task 3 Dataset,https://www.kaggle.com/srijankundu/isic-2016-task-3-dataset,826.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,82.66,60-100%
+ISIC-SEGMENTATION 2016,https://www.kaggle.com/ratneshkumartiwari53/isic-segmentation-2016,831.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,82.55,60-100%
+Skin Cancer Dataset ISIC 2016 ,https://www.kaggle.com/mdforiduzzamanzihad/skin-cancer-dataset-isic-2016,7.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,99.85,60-100%
+ISIC 2017 Original Dataset,https://www.kaggle.com/mahmudulhasantasin/isic-2017-original-dataset,12288.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,0.57,1-30%
+isic 2019 even 1024 cc,https://www.kaggle.com/teeyee314/isic-2019-even-1024-cc,241.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,98.17,60-100%
+ISIC 2016 - 256x256,https://www.kaggle.com/ziadloo/isic-2016-256x256,17.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,99.64,60-100%
+ISIC 2019 - 256x256,https://www.kaggle.com/ziadloo/isic-2019-256x256,325.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,97.53,60-100%
+ISIC 2020 - 256x256,https://www.kaggle.com/ziadloo/isic-2020-256x256,422.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,98.61,60-100%
+SIIM-ISIC 2020 Melanoma Pre-Processed Dataset,https://www.kaggle.com/scipygaurav/siimisic-2020-melanoma-preprocessed-dataset,7168.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,76.43,60-100%
+augmented-isic-2019,https://www.kaggle.com/wajahatiqbalwaji/augmentedisic2019,2048.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,84.43,60-100%
+ISIC 2018 (CA-Net Preprocessing),https://www.kaggle.com/wedayyy/isic-2018-ca-net-preprocessing,459.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,97.18,60-100%
+ISIC 2019 2020 Melanoma Meta and Stats,https://www.kaggle.com/allunia/isic-2019-2020-melanoma-meta-and-stats,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,76.65,60-100%
+preprocessed 2018 ISIC,https://www.kaggle.com/abidinawres/preprocessed-2018-isic,382.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,97.65,60-100%
+isic-2016-aug,https://www.kaggle.com/devbhuyan/isic-2016-aug,16.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,99.66,60-100%
+ISIC 2017 - 256x256,https://www.kaggle.com/ziadloo/isic-2017-256x256,37.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,99.7,60-100%
+SIIM-ISIC 2020 Melanoma Dataset (10 Folds Split),https://www.kaggle.com/scipygaurav/siimisic-2020-melanoma-dataset-10-folds-split,23552.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,22.56,1-30%
+isic 2019 size 384 hair removed,https://www.kaggle.com/ajipandas/isic-2019-size-384-hair-removed,755.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,94.26,60-100%
+isic 2019 odd 2014 cc,https://www.kaggle.com/teeyee314/isic-2019-odd-2014-cc,251.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,98.09,60-100%
+ISIC-2017-Aug_Training_Data,https://www.kaggle.com/gutuggg/isic2017aug-training-data,998.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,91.92,60-100%
+ISIC Challenge Dataset-2020,https://www.kaggle.com/sumaiyabinteshahid/isic-challenge-dataset-2020,30720.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,1.01,1-30%
+preprocessed batches ISIC 2020,https://www.kaggle.com/abidinawres/preprocessed-batches-isic-2020,2048.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,93.27,60-100%
+Preprocessed Data 2019  ISIC,https://www.kaggle.com/abidinawres/preprocessed-data-2019-isic,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,92.22,60-100%
+isic 2019 and 2020 Melanoma dataset hair removal,https://www.kaggle.com/qikangdeng/isic-2019-and-2020-melanoma-dataset-hair-removal,6144.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,53.29,30-60%
+Dataset ISIC Challenge 2019,https://www.kaggle.com/mrifqibhagas/dataset-isic-challenge-2019,735.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,94.41,60-100%
+ISIC 2019 Preprocessed Dataset,https://www.kaggle.com/segijaganath/isic-2019-preprocessed-dataset,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,76.65,60-100%
+"Unet_Segmented(isic 2019,2020)",https://www.kaggle.com/nargeshasanpour/unet-segmentedisic-20192020,534.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,95.94,60-100%
+ISIC 2020,https://www.kaggle.com/abdulrehmanraja/isic-2020,23552.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,22.56,1-30%
+ISIC 2019,https://www.kaggle.com/rid1dle/isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+ISIC 2018 Task 3 - 256x256,https://www.kaggle.com/ziadloo/isic-2018-task-3-256x256,157.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,99.03,60-100%
+"ISIC 2018 Task 1,2 - 256x256",https://www.kaggle.com/ziadloo/isic-2018-task-12-256x256,49.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,99.7,60-100%
+ISIC 2019 - train - valid - tst,https://www.kaggle.com/eduardomorais/isic-2019-train-valid-tst,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+Melanoma TFRecords 768x768 ISIC 2016,https://www.kaggle.com/ashurali/melanoma-tfrecords-768x768-isic-2016,150.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,96.85,60-100%
+Melanoma TFRecords 512x512 ISIC 2016,https://www.kaggle.com/ashurali/melanoma-tfrecords-512x512-isic-2016,73.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,98.47,60-100%
+Melanoma TFRecords 384x384 ISIC 2016,https://www.kaggle.com/ashurali/melanoma-tfrecords-384x384-isic-2016,44.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,99.08,60-100%
+Melanoma TFRecords 256x256 ISIC 2016,https://www.kaggle.com/ashurali/melanoma-tfrecords-256x256-isic-2016,21.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,99.56,60-100%
+ISIC-2018-Augment,https://www.kaggle.com/hafidhmuhammadakbar/isic-2018-augment,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,87.41,60-100%
+ISIC 2018 Skin Lesion,https://www.kaggle.com/rifatahommed/isic-2018-skin-lesion,10240.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,37.03,30-60%
+ISIC 2019 Segemented,https://www.kaggle.com/hussainmahmood819/isic-2019-segemented,2048.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,84.43,60-100%
+SIIM External Data ISIC 2019 tfrec 512,https://www.kaggle.com/graf10a/siim-external-data-isic-2019-tfrec-512,2048.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,84.43,60-100%
+Skin Cancer ISIC Dataset 2018,https://www.kaggle.com/vardhilpatel/skin-cancer-isic-dataset-2018,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,87.41,60-100%
+ISIC 2019 Pseudo Patient Labels,https://www.kaggle.com/feidawei/isic-2019-pseudo-patient-labels,0.1650390625,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,100.0,60-100%
+SIIM-ISIC-2020,https://www.kaggle.com/abdulrahmanamukhlif/siimisic2020,14.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,99.95,60-100%
+ISIC 2016 Task 1 - Training Data,https://www.kaggle.com/santiagodelrey/isic-2016-task-1-training-data,601.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,87.38,60-100%
+isic 2016,https://www.kaggle.com/jinxufang/isic-2016,831.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,82.55,60-100%
+ISIC 2017 Task 3 Dataset,https://www.kaggle.com/srijankundu/isic-2017-task-3-dataset,12288.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,0.57,1-30%
+isic 2019 target,https://www.kaggle.com/jiang0236/isic-2019-target,0.0634765625,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,100.0,60-100%
+isic 2018 images,https://www.kaggle.com/jiang0236/isic-2018-images,168.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,98.97,60-100%
+ISIC 2017 Dataset,https://www.kaggle.com/hoangtruongsegkvar3/isic-2017-dataset,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,50.28,30-60%
+ISIC 2016 JPEG,https://www.kaggle.com/rickmondal/isic-2016-jpeg,596.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,87.49,60-100%
+ISIC 2019 JPEG,https://www.kaggle.com/rickmondal/isic-2019-jpeg,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+ISIC 2018 JPEG,https://www.kaggle.com/rickmondal/isic-2018-jpeg,3072.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,81.11,60-100%
+ISIC 2017 JPEG,https://www.kaggle.com/rickmondal/isic-2017-jpeg,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,50.28,30-60%
+Skin Lesion Dataset (ISIC 2019),https://www.kaggle.com/aammustahid/skin-lesion-dataset-isic-2019,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,92.22,60-100%
+isic 2019 size 512 hair removed,https://www.kaggle.com/ajipandas/isic-2019-size-512-hair-removed,1024.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,92.22,60-100%
+skincancer-ISIC-2019,https://www.kaggle.com/viveknarayanuppala/skincancer-isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+ISIC 2017 1 FOLD,https://www.kaggle.com/mahmudulhasantasin/isic-2017-1-fold,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,50.28,30-60%
+ISIC dataset 2018 0.8 hair-rmved,https://www.kaggle.com/phuctan/isic-dataset-2018,868.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,94.66,60-100%
+ISIC 2016 Skin Cancer Segmentation,https://www.kaggle.com/challabhavanisankar/isic-2016-skin-cancer-segmentation,831.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,82.55,60-100%
+ISIC skin lesion dataset 2016,https://www.kaggle.com/sahiliitj/isic-skin-lesion-dataset-2016,3072.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,35.5,30-60%
+ISIC 2018 Test Data,https://www.kaggle.com/arafatshovon/isic-2018-test-data,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,87.41,60-100%
+ISIC 2018 Task 3,https://www.kaggle.com/hitman1309/isic-2018-task-3,3072.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,81.11,60-100%
+isic 2019 and 2020 Melanoma dataset hair addition,https://www.kaggle.com/qikangdeng/isic-2019-and-2020-melanoma-dataset-hair-addition,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+isic-2017-train,https://www.kaggle.com/iuliali/isic-2017-train,5120.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,58.57,30-60%
+SIIM PNG TFRECORDS 512 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-tfrecords-512-isic-2019-old,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,68.86,60-100%
+SIIM PNG TFRECORDS 512 ISIC 2019 NEW,https://www.kaggle.com/graf10a/siim-png-tfrecords-512-isic-2019-new,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,68.86,60-100%
+SIIM PNG TFRECORDS 384 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-tfrecords-384-isic-2019-old,2048.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,84.43,60-100%
+ISIC - 2019,https://www.kaggle.com/karoladel/isic-2019,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+ISIC 2020,https://www.kaggle.com/shakiburrahmanasif/isic-2020,32768.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,7.74,1-30%
+ISIC 2018 Task 2: Lesion Attribute Detection,https://www.kaggle.com/thanhngnguyn/isic-2018-task-2-lesion-attribute-detection,13312.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,18.14,1-30%
+ISIC challenge dataset 2020(from isic archive),https://www.kaggle.com/manasvi12/isic-challenge-dataset-2020from-isic-archive,17408.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,42.76,30-60%
+ISIC 2017 5 folded,https://www.kaggle.com/mahmudulhasantasin/isic-2017-5-folded,58.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,99.53,60-100%
+ISIC 2018 for baseline (original images).zip,https://www.kaggle.com/phuctan/isic-2018-for-baseline-original-imageszip,1024.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,93.7,60-100%
+SIIM PNG TFRECORDS 640 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-tfrecords-640-isic-2019-old,6144.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,53.29,30-60%
+SIIM PNG TFRECORDS 768 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-tfrecords-768-isic-2019-old,8192.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,37.72,30-60%
+SIIM PNG CC TFRECORDS 512 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-512-isic-2019-old,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,68.86,60-100%
+SIIM PNG CC TFRECORDS 512 ISIC 2019 NEW,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-512-isic-2019-new,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,68.86,60-100%
+SIIM PNG CC TFRECORDS 384 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-384-isic-2019-old,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,76.65,60-100%
+UNet Project Dataset ISIC 2017,https://www.kaggle.com/aquillanatus/unet-project-dataset-isic-2017,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,50.28,30-60%
+Deep Features Skin Cancer ISIC 2017,https://www.kaggle.com/usmansadiq/deep-features-skin-cancer-isic-2017,1.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,99.99,60-100%
+ISIC 2018 for traning (hair removed),https://www.kaggle.com/phuctan/isic-2018-for-traning-hair-removed,466.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,97.13,60-100%
+ISIC 2019 Test Data,https://www.kaggle.com/shashwatsarkar/isic-2019-test-data,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,68.86,60-100%
+ISIC Challenge 2019 Dataset,https://www.kaggle.com/revandhov/isic-challenge-2019-dataset,430.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,96.73,60-100%
+ISIC-2018-balanced-128X128,https://www.kaggle.com/shawon250/isic-2018-balanced-128x128,367.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,97.74,60-100%
+Isic-2018 task 1,https://www.kaggle.com/anangfath/isic-2018-task-1,10240.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,37.03,30-60%
+ISIC 2019 Test Data,https://www.kaggle.com/nandaguntupalli/isic-2019-test-data,4096.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,68.86,60-100%
+ISIC 2018 TASK 3,https://www.kaggle.com/manojdeep/isic-2018-task-3,3072.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,81.11,60-100%
+ISIC-2019 skin disease labelled dataset ( 8 cls),https://www.kaggle.com/mdefajalam/isic-2019-skin-disease-labelled,9216.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,29.94,1-30%
+SIIM PNG CC TFRECORDS 640 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-640-isic-2019-old,6144.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,53.29,30-60%
+SIIM PNG CC TFRECORDS 768 ISIC 2019 OLD,https://www.kaggle.com/graf10a/siim-png-cc-tfrecords-768-isic-2019-old,8192.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,37.72,30-60%
+ISIC-2018-CLEAN,https://www.kaggle.com/quanghungdang/isic-2018,11264.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,30.73,30-60%
+isic 2020 new,https://www.kaggle.com/shakibrahman15/isic-2020-new,23552.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,22.56,1-30%
+ISIC-2017-Seg,https://www.kaggle.com/saptarshipani/isic-2017-seg,5120.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,58.57,30-60%
+HAM10000 dataset ISIC dataset 2018,https://www.kaggle.com/dharjoy/ham10000-dataset-isic-dataset-2018,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,87.41,60-100%
+ISIC 2018 Segment + Removal Hair,https://www.kaggle.com/hungbacktracking/isic-2018-segment-removal-hair,801.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,95.07,60-100%
+ISIC 2016 Skin Cancer dataset,https://www.kaggle.com/tushartalukder/isic2016,832.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,82.53,60-100%
+ISIC 2018 for training (hair rmv n crop images),https://www.kaggle.com/phuctan/isic-2018-for-training-hair-rmv-n-crop-images,285.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,98.25,60-100%
+ISIC2019-2018-ITA-Based-Grouped,https://www.kaggle.com/sanazmovahed/isic2019-2018-ita-from-colab2,9216.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,43.32,30-60%
+ham10000 skin cancer isic 2018 dataset,https://www.kaggle.com/dharjoy/ham10000-skin-cancer-isic-2018-dataset,2048.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,87.41,60-100%
+SIIM-ISIC-Melanoma-Classification-2020-Resized1024,https://www.kaggle.com/chirag94/siimisicmelanomaclassification2020resized1024,3072.0,ISIC 2020 Challenge,https://challenge.isic-archive.com/data/#2020,30413.0,89.9,60-100%
+ISIC 2016 ORIGINAL DATASET 5 FOLDED WITH LABEL,https://www.kaggle.com/mahmudulhasantasin/isic-2016-original-dataset-5-folded-with-label,3072.0,ISIC 2016 Challenge,https://challenge.isic-archive.com/data/#2016,4763.0,35.5,30-60%
+ISIC 2019 Train 384x384 Inpainted Stratified tfrec,https://www.kaggle.com/kiranthomascherian/isic-2019-train-384x384-inpainted-stratified-tfrec,674.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,94.88,60-100%

@@ -1,0 +1,4 @@
+Kaggle Dataset Name,Kaggle Dataset URL,Kaggle Size (MB),Original Dataset Name,Orginal Dataset URL,Original Size (MB),Size Difference (%),Size Difference Category (%)
+ISIC-2018,https://www.kaggle.com/trantoanthang/isic-2018,13312.0,ISIC 2018 Challenge,https://challenge.isic-archive.com/data/#2018,16261.0,18.14,1-30%
+ISIC 2017 1 FOLD,https://www.kaggle.com/mahmudulhasantasin/isic-2017-1-fold,6144.0,ISIC 2017 Challenge,https://challenge.isic-archive.com/data/#2017,12358.0,50.28,30-60%
+ISIC 2019 Preprocessed Dataset,https://www.kaggle.com/segijaganath/isic-2019-preprocessed-dataset,3072.0,ISIC 2019 Challenge,https://challenge.isic-archive.com/data/#2019,13154.0,76.65,60-100%
