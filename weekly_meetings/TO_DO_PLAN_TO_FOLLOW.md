@@ -26,18 +26,18 @@ Applying those methods to the images I have downloaded:
 **Image Size Comparison**
 
 - [x]  Number of images comparison.
-- [ ]  Filename comparison on image names.
-- [ ]  Image dimensions comparison.
-- [ ]  File size of images comparison.
+- [x]  Filename comparison on image names.
+- [x]  Image dimensions comparison.
+- [x]  File size of images comparison.
 
 **Pixel-by-Pixel Comparison**
 
-- [ ]  Determine if duplicates are exact copies or if modifications have been made (identify datasets that have been resized or compressed).
+- [x]  Determine if duplicates are exact copies or if modifications have been made (identify datasets that have been resized or compressed).
 
 **Hashing Techniques**
 
-- [ ]  Generate hashes for the images.
-- [ ]  Compare with original dataset, identify matches and near-matches.
+- [x]  Generate hashes for the images.
+- [x]  Compare with original dataset, identify matches and near-matches.
 
 ## **Baseline Model Tests**
 

@@ -3,6 +3,7 @@
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
 
+* [30 October 2024](#date-30-october-2024)
 * [21 October 2024](#date-21-october-2024)
 * [09 October 2024](#date-09-october-2024)
 * [02 October 2024](#date-02-october-2024)
@@ -11,6 +12,51 @@
 * [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
+
+
+
+# Date: 30 October 2024
+
+
+
+#### Who did you help this week?
+
+    - N/A
+
+#### What helped you this week?
+
+    - 
+
+#### What did you achieve?
+
+    - Filename comparison on image names - found those images that are in both datasets, those images that are only in duplicate datasets and those that are only in the original dataset.
+    - Comparison on the dimensions of the images.
+    - Comparison on the size of images.
+    - Pixel-by-Pixel comparison on common images found
+    - Generated hashes for the images.
+    - Compared all images of duplicate datasets with original dataset and found exact duplicates.
+   
+#### What did you struggle with?
+
+    - 
+
+#### What would you like to work on next week?
+
+    - 
+
+#### Where do you need help from Veronika?
+
+    - 
+
+#### What are the agreements after this meeting? 
+
+    - To be filled after the meeting.
+
+#### Any other topics
+
+    - N/A
+
+
 
 
 # Date: 21 October 2024
@@ -47,7 +93,8 @@
 
 #### What are the agreements after this meeting? 
 
-    -  To be filled after the meeting.
+    -  5th of December the other draft time to be sent, if you don't send on the 4th of November then you just don't get feedback but you dont maybe need to write a lot just write like small paragraphs for the methods.
+    - No need to include masks in the analysis of data.
 
 #### Any other topics
 
