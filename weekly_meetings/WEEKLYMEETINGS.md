@@ -25,28 +25,30 @@
 
 #### What helped you this week?
 
-    - 
+    - Nothing specific.
 
 #### What did you achieve?
 
-    - Filename comparison on image names - found those images that are in both datasets, those images that are only in duplicate datasets and those that are only in the original dataset.
-    - Comparison on the dimensions of the images.
-    - Comparison on the size of images.
-    - Pixel-by-Pixel comparison on common images found
-    - Generated hashes for the images.
+    - Filename comparison on image names - found those images that are in both datasets (common images), those images that are only in duplicate datasets and those that are only in the original dataset.
+    - Comparison on the dimensions of the images (common ones).
+    - Comparison on the size of images (common ones).
+    - Pixel-by-Pixel comparison on common images found (common ones).
+    - Generated hashes for all the images.
     - Compared all images of duplicate datasets with original dataset and found exact duplicates.
+    - Made a nice structure on Overleaf on what I am going to write on my paper.
    
 #### What did you struggle with?
 
-    - 
+    - I don't have something specific.
 
 #### What would you like to work on next week?
 
-    - 
+    - Make some new plots I can potentially use on my paper.
+    - I will just write on overleaf to be able to have something concrete for Monday - first draft delivery.
 
 #### Where do you need help from Veronika?
 
-    - 
+    - Might have questions after I show my progress, nothing for now.
 
 #### What are the agreements after this meeting? 
 
@@ -54,7 +56,7 @@
 
 #### Any other topics
 
-    - N/A
+    - I have some questions about the thesis but I will ask them in the meeting.
 
 
 

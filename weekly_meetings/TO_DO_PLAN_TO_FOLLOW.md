@@ -15,10 +15,6 @@ Results that I will get from comparison done in contentSize and name matching of
 
 - [x]  Choose the duplicate datasets based on results you get from contentSize and name comparison and either download the full dataset or maybe if avaliable just the training/test data (don't want to run in storage problem).
 
-## **Documenting limitations and assumptions**
-
-- [ ]  Acknowledging the limitations and if any assumptions.
-
 ## Methods planning to be done
 
 Applying those methods to the images I have downloaded:
@@ -45,10 +41,15 @@ Applying those methods to the images I have downloaded:
 - [ ]  **Training and evaluating models:** Using a machine learning model (a CNN for image classification maybe).
 - [ ]  **Comparing outcomes:** Analysing results with performance metrics (accuracy, precision, recall, F1-score, and ROC curves.)
 
-## Research (Overleaf)
+## Research (Overleaf) - Potential tasks
 
 - [ ]  Researching why duplicates exist on Kaggle - possible reasons maybe include ease of access, personal modifications, or lack of awareness.
 - [ ]  Discussing how data duplication might affect research quality.
 - [ ]  Analysing whether duplicates comply with the licensing terms of the original datasets.
 - [ ]  Identifying potential legal issues arising from unauthorised duplication.
 - [ ]  Carbon footprint of storing all those datasets in Kaggle.
+
+### **Documenting limitations and assumptions**
+
+- [ ]  Acknowledging the limitations and if any assumptions.
+
