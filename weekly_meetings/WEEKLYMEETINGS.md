@@ -26,23 +26,27 @@
 
 #### What helped you this week?
 
-    - 
+    - N/A
 
 #### What did you achieve?
 
-    - 
+    - I only wrote the whole week in Overleaf.
    
 #### What did you struggle with?
 
-    - 
+    - I mean the overall writing is hard sometimes.
 
 #### What would you like to work on next week?
 
-    - 
+    - Write on Overleaf again.
+    - Improve my code, check for any mistakes.
+    - Read some literature.
+    - I will brainstorm a bit to see if there is something else that can be done to expand the project.
 
 #### Where do you need help from Veronika?
 
-    - 
+    - Discuss the results I got. 
+    - Talk about the suggestions you gave me in Overleaf.
 
 #### What are the agreements after this meeting? 
 
