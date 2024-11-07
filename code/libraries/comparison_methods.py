@@ -6,6 +6,8 @@ from PIL import Image
 import csv
 import pandas as pd
 import hashlib
+import matplotlib.pyplot as plt
+from matplotlib_venn import venn2_unweighted
 
 # WARNINGS
 import warnings
@@ -138,7 +140,7 @@ def get_image_dimensions(directory, filenames):
 
 
 def get_file_sizes(directory, filenames):
-     '''
+    '''
     Functions to get the dimensions of images in a directory.
     
     Parameters:
@@ -363,44 +365,60 @@ def perform_pixel_comparison(folder_duplicate, folder_original, pair_index, subf
         print("No images to compare for this subfolder.")
         return
     
-    # pixel-by-pixel comparison
-    pixel_comparison_results = []
-    for index, row in images_to_compare.iterrows():
-        filename = row["Filename"]
-        image_path_duplicate = os.path.join(dir_duplicate, filename)
-        image_path_original = os.path.join(dir_original, filename)
-        
-        if not os.path.exists(image_path_duplicate):
-            print(f"Duplicate image not found: {image_path_duplicate}")
-            continue
-        if not os.path.exists(image_path_original):
-            print(f"Original image not found: {image_path_original}")
-            continue
-        
-        identical = pixel_compare(image_path_duplicate, image_path_original)
-        
-        pixel_comparison_results.append({
-            "Filename": filename,
-            "Identical": identical
-        })
-    
-    pixel_comparison_df = pd.DataFrame(pixel_comparison_results)
-    
+    result_desc_safe = f"Pair_{pair_index}_(Duplicate_Data_-_{os.path.basename(folder_duplicate)}_vs_Original_Data_-_{os.path.basename(folder_original)})"
+    subfolder_safe = subfolder.replace(" ", "_")
     csv_filename = f"../data/pixel_by_pixel_comparison/pixel_comparison_{result_desc_safe}_{subfolder_safe}.csv"
-    pixel_comparison_df.to_csv(csv_filename, index=False)
+
+    if os.path.exists(csv_filename):
+        pixel_comparison_df = pd.read_csv(csv_filename)
+        total_images = len(pixel_comparison_df)
+        identical_images = pixel_comparison_df['Identical'].sum()
+        different_images = total_images - identical_images
+        print(f"    Total images compared: {total_images}")
+        print(f"    Identical images: {identical_images}")
+        print(f"    Different images: {different_images}")
     
-    total_images = len(pixel_comparison_df)
-    identical_images = pixel_comparison_df["Identical"].sum()
-    different_images = total_images - identical_images
-    
-    print(f"    Total images compared: {total_images}")
-    print(f"    Identical images: {identical_images}")
-    print(f"    Different images: {different_images}")
+    else:
+        # pixel-by-pixel comparison
+        pixel_comparison_results = []
+        for index, row in images_to_compare.iterrows():
+            filename = row["Filename"]
+            image_path_duplicate = os.path.join(dir_duplicate, filename)
+            image_path_original = os.path.join(dir_original, filename)
+            
+            if not os.path.exists(image_path_duplicate):
+                print(f"Duplicate image not found: {image_path_duplicate}")
+                continue
+            if not os.path.exists(image_path_original):
+                print(f"Original image not found: {image_path_original}")
+                continue
+            
+            identical = pixel_compare(image_path_duplicate, image_path_original)
+            
+            pixel_comparison_results.append({
+                "Filename": filename,
+                "Identical": identical
+            })
+        
+        pixel_comparison_df = pd.DataFrame(pixel_comparison_results)
+        
+        csv_filename = f"../data/pixel_by_pixel_comparison/pixel_comparison_{result_desc_safe}_{subfolder_safe}.csv"
+        pixel_comparison_df.to_csv(csv_filename, index=False)
+        
+        total_images = len(pixel_comparison_df)
+        identical_images = pixel_comparison_df["Identical"].sum()
+        different_images = total_images - identical_images
+        
+        # print(f"  {subfolder.capitalize()} -")
+        print(f"    Total images compared: {total_images}")
+        print(f"    Identical images: {identical_images}")
+        print(f"    Different images: {different_images}")
 
 
 
 
 #### HASHING COMPARISON ####
+
 
 def compute_file_hashes(image_folder, dataset_name):
     '''
@@ -466,3 +484,29 @@ def compare_hashes_for_pair(hashes_df, duplicate_dataset_name, original_dataset_
     duplicate_pairs = duplicate_pairs.to_dict("records")
     
     return duplicate_pairs
+
+
+
+
+#### IMAGE COUNT VENN DIAGRAM ####
+
+
+def plot_venn_for_all_pairs(all_comparison_results):
+    for pair_index, (comparison_results, folder_original, folder_duplicate) in all_comparison_results.items():
+        folder_duplicate_update = os.path.basename(folder_duplicate)
+        folder_original_update = os.path.basename(folder_original)
+        
+        for subfolder, details in comparison_results.items():
+            plt.figure()
+            out = venn2_unweighted(subsets = (len(details["Missing images in Duplicate Folder"]), 
+                                               len(details["Missing images in Original Folder"]), 
+                                               len(details['Common Files'])), 
+                                   set_labels = (folder_original_update, folder_duplicate_update))
+            
+            for text in out.set_labels:
+                text.set_fontsize(15)
+            for text in out.subset_labels:
+                text.set_fontsize(15)
+            
+            plt.title(f"{subfolder.capitalize()}", fontsize=15)
+            plt.show()
