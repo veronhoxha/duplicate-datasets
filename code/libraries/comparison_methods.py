@@ -19,6 +19,17 @@ warnings.filterwarnings("ignore", category=DeprecationWarning, module="pkg_resou
 
 
 def count_images_and_get_filenames(directory):
+    '''
+    Function to count the number of images in a directory and get the filenames of the images.
+    
+    Parameters:
+        - directory: Path to the directory containing images.
+        
+    Returns:
+        - len(image_filenames): Number of images in the directory.
+        - image_filenames: Set of filenames of the images in the directory.
+    '''
+    
     image_extensions = {".jpg", ".jpeg", ".png"}
     image_filenames = set()
     
@@ -29,6 +40,17 @@ def count_images_and_get_filenames(directory):
 
 
 def compare_image_counts_and_filenames(folder_duplicate, folder_original):
+    '''
+    Function to compare the number of images and filenames in the duplicate and original folders.
+    
+    Parameters:
+        -  folder_duplicate: Path to the folder containing duplicate images.
+        -  folder_original: Path to the folder containing original images.
+        
+    Returns:
+        - results: Dictionary containing the comparison results for the train, test and val subfolders.
+    '''
+    
     subfolders = ["train", "test", "val"]
     results = {}
 
@@ -93,6 +115,17 @@ def compare_image_counts_and_filenames(folder_duplicate, folder_original):
 
 
 def get_image_dimensions(directory, filenames):
+    '''
+    Functions to get the dimensions of images in a directory.
+    
+    Parameters:
+        - directory: Path to the directory containing the images.
+        - filenames: List of filenames of the images.
+        
+    Returns:
+        - dimensions: Dictionary containing the dimensions of the images.
+    '''
+    
     dimensions = {}
     for filename in filenames:
         filepath = os.path.join(directory, filename)
@@ -105,6 +138,17 @@ def get_image_dimensions(directory, filenames):
 
 
 def get_file_sizes(directory, filenames):
+     '''
+    Functions to get the dimensions of images in a directory.
+    
+    Parameters:
+        - directory: Path to the directory containing the images.
+        - filenames: List of filenames of the images.
+        
+    Returns:
+        - sizes: Dictionary containing the sizes of the images.
+    '''
+    
     sizes = {}
     for filename in filenames:
         filepath = os.path.join(directory, filename)
@@ -116,6 +160,20 @@ def get_file_sizes(directory, filenames):
 
 
 def compare_image_dimensions_and_sizes(folder_duplicate, folder_original, result_description, result_description_update, results):
+    '''
+    Function to compare the dimensions and sizes of images in the duplicate and original folders.
+    
+    Parameters:
+        - folder_duplicate: Path to the folder containing duplicate images.
+        - folder_original: Path to the folder containing original images.
+        - result_description: Description of the comparison results.
+        - result_description_update: Updated description of the comparison results.
+        - results: Dictionary containing the comparison results for the train, test and val subfolders.
+        
+    Returns:
+        - results: Updated dictionary containing the comparison results for the train, test and val subfolders.
+    '''
+    
     for subfolder in results.keys():
         dir_duplicate = os.path.join(folder_duplicate, subfolder)
         dir_original = os.path.join(folder_original, subfolder)
@@ -226,6 +284,17 @@ def compare_image_dimensions_and_sizes(folder_duplicate, folder_original, result
 
 
 def pixel_compare(image_path_a, image_path_b):
+    '''
+    Function to compare two images pixel by pixel.
+    
+    Parameters:
+        - image_path_a: Path to the first image used for comparison.
+        - image_path_b: Path to the second image used for comparison.
+    
+    Returns:
+        - True if the images are identical, False otherwise.
+    '''
+    
     try:
         with Image.open(image_path_a) as img_a, Image.open(image_path_b) as img_b:
             if img_a.size != img_b.size:
@@ -240,6 +309,19 @@ def pixel_compare(image_path_a, image_path_b):
     
     
 def perform_pixel_comparison(folder_duplicate, folder_original, pair_index, subfolder):
+    '''
+    Function to perform pixel by pixel comparison of images in the duplicate and original folders.
+    
+    - Parameters:
+        - folder_duplicate: Path to the folder containing duplicate images.
+        - folder_original: Path to the folder containing original images.
+        - pair_index: Index of the pair of datasets being compared.
+        - subfolder: Subfolder being compared (train, test, val).
+        
+    - Returns:
+        - None
+    '''
+    
     dir_duplicate = os.path.join(folder_duplicate, subfolder)
     dir_original = os.path.join(folder_original, subfolder)
     
@@ -321,6 +403,17 @@ def perform_pixel_comparison(folder_duplicate, folder_original, pair_index, subf
 #### HASHING COMPARISON ####
 
 def compute_file_hashes(image_folder, dataset_name):
+    '''
+    Function to compute hashes for images in a folder.
+    
+    Parameters:
+        - image_folder: Path to the folder containing images.
+        - dataset_name: Name of the dataset.
+        
+    Returns:
+        - hashes: List of dictionaries containing the hashes of the images.
+    '''
+    
     image_extensions = {".jpg", ".jpeg", ".png"}
     hashes = []
     for root, dirs, files in os.walk(image_folder):
@@ -345,6 +438,18 @@ def compute_file_hashes(image_folder, dataset_name):
 
 
 def compare_hashes_for_pair(hashes_df, duplicate_dataset_name, original_dataset_name):
+    '''
+    Function to compare hashes for images in the duplicate and original datasets.
+    
+    Parameters:
+        - hashes_df: DataFrame containing the hashes of images.
+        - duplicate_dataset_name: Name of the duplicate dataset.
+        - original_dataset_name: Name of the original dataset.
+    
+    Returns:
+        - duplicate_pairs: List of dictionaries containing the hashes of duplicate and original.
+    '''
+    
     duplicate_df = hashes_df[hashes_df["Dataset"] == duplicate_dataset_name].copy()
     original_df = hashes_df[hashes_df["Dataset"] == original_dataset_name].copy()
     
