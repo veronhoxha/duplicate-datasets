@@ -14,11 +14,26 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning, module="pkg_resources")
 
 
+
+
 ###################################################################################################
 
 
-# converting all sizes to bytes
+
+
 def parse_size(size_str):
+    '''
+    Size string parser that converts a human readable size string to bytes.
+    Supported units are B, KB, MB, GB, TB.
+    
+    Parameters:
+        - size_str: Human-readable size string.
+        
+    Returns:
+        - size_in_bytes: Size in bytes.
+        - unit: Size unit.
+    '''
+    
     size_str = size_str.strip()
     size_regex = r'([\d\.]+)\s*([KMGT]?B)'
     match = re.match(size_regex, size_str, re.IGNORECASE)
@@ -39,8 +54,19 @@ def parse_size(size_str):
     return size_in_bytes, unit
 
 
-# flatting metadata since we are working with nested dictionary and list 
 def flatten_metadata(metadata, parent_key='', sep='.'):
+    '''
+    Function to flatten a nested dictionary with lists to a flat dictionary.
+    
+    Parameters:
+        - metadata: Nested dictionary with lists.
+        - parent_key: Parent key for the current level.
+        - sep: Separator between keys.
+    
+    Returns:
+        - dict: Flattened dictionary.
+    '''
+    
     items = []
     for k, v in metadata.items():
         new_key = f"{parent_key}{sep}{k}" if parent_key else k
@@ -57,8 +83,18 @@ def flatten_metadata(metadata, parent_key='', sep='.'):
     return dict(items)
 
 
-# collecting metadata
 def convert_dataset_to_croissant(dataset):
+    '''
+    Function to convert a Kaggle dataset to a Croissant metadata dictionary.
+    
+    Parameters:
+        - dataset: Kaggle dataset object.
+    
+    Returns:
+        - croissant_metadata: Croissant metadata dictionary.
+    
+    '''
+    
     if dataset.tags:
         keywords = [tag.name for tag in dataset.tags]
     else:
@@ -128,18 +164,38 @@ def convert_dataset_to_croissant(dataset):
 
 
 
+
 #########################################################################
 
 
 
-# extrating the year from the name of the dataset so it can be used to compare the datasets and finding the potential duplicates
+
 def extract_year(name):
+    '''
+    Function to extract the year from the dataset name.
+    
+    Parameters:
+        - name: Dataset name.
+    
+    Returns:
+        - year: Year extracted from the dataset name.
+    '''
+    
     match = re.search(r'\b(20\d{2})\b', name)
     return int(match.group(0)) if match else None
 
 
-# finding potential duplicates 
 def find_potential_duplicates(original_df, kaggle_df):
+    '''
+    Function to find potential duplicates between the original dataset and the Kaggle dataset matched by year on the dataset name.
+    
+    Parameters:
+        - original_df: Original dataset DataFrame.
+        - kaggle_df: Duplicate Kaggle dataset DataFrame.
+        
+    Returns:
+        - duplicates: DataFrame with potential duplicates.
+    '''
     
     duplicates = []
 
@@ -173,8 +229,17 @@ def find_potential_duplicates(original_df, kaggle_df):
     return pd.DataFrame(duplicates)
 
 
-# categorizing the size difference
 def size_difference_category(percentage):
+    '''
+    Function to categorize the "Size Difference (%)" percentage.
+    
+    Parameters: 
+        - percentage: Size difference percentage.
+        
+    Returns: 
+        - category: Categorized size difference.
+    '''
+    
     if percentage <= 30:
         return '1-30%'
     elif percentage <= 60:
