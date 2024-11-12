@@ -3,6 +3,7 @@
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
 
+* [13 November 2024](#date-13-november-2024)
 * [06 November 2024](#date-06-november-2024)
 * [30 October 2024](#date-30-october-2024)
 * [21 October 2024](#date-21-october-2024)
@@ -13,6 +14,46 @@
 * [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
+
+
+# Date: 13 November 2024
+
+
+
+#### Who did you help this week?
+
+    - N/A
+
+#### What helped you this week?
+
+    - Last weeks suggestions in the meeting.
+
+#### What did you achieve?
+
+    - Created tables for all the results on Overleaf as a first option of showing results.
+    - Venn diagrams for the image counts results of subfolders of each dataset.
+    - Methodology flowchart.
+
+#### What did you struggle with?
+
+    - N/A
+
+#### What would you like to work on next week?
+
+    - If agreed on the plots and the way the results are shown I am going to write about my results in Overleaf.
+
+#### Where do you need help from Veronika?
+
+    - I made a few plots and a flowchart for the methods, would just like to discuss them. For some methods it's just I tried to throw a plot and show something but just nothing made sense, I believe using tables in Overleaf is a better option and I have them already created.
+
+#### What are the agreements after this meeting? 
+
+    - To be filled after the meeting.
+
+#### Any other topics
+
+    - N/A
+
 
 
 
@@ -50,11 +91,13 @@
 
 #### What are the agreements after this meeting? 
 
-    - To be filled after the meeting.
+    - Make a module.py where you have three functions for the three methods and then u do the experiments in the same set of images.
+    - Present results using plots.
+    - Watch the video in the student guide.
 
 #### Any other topics
 
-    - N/A
+    - Thesis.
 
 
 

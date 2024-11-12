@@ -493,20 +493,20 @@ def compare_hashes_for_pair(hashes_df, duplicate_dataset_name, original_dataset_
 
 def plot_venn_for_all_pairs(all_comparison_results):
     for pair_index, (comparison_results, folder_original, folder_duplicate) in all_comparison_results.items():
-        folder_duplicate_update = os.path.basename(folder_duplicate)
+        folder_duplicate_update = os.path.basename(folder_duplicate).replace("-", " ")
         folder_original_update = os.path.basename(folder_original)
         
         for subfolder, details in comparison_results.items():
-            plt.figure()
+            plt.figure(figsize=(8, 8))
             out = venn2_unweighted(subsets = (len(details["Missing images in Duplicate Folder"]), 
                                                len(details["Missing images in Original Folder"]), 
-                                               len(details['Common Files'])), 
-                                   set_labels = (folder_original_update, folder_duplicate_update))
+                                               len(details['Common Files'])),
+                                   set_labels = ("", ""))
             
-            for text in out.set_labels:
-                text.set_fontsize(15)
+            # for text in out.set_labels:
+            #     text.set_fontsize(14)
             for text in out.subset_labels:
-                text.set_fontsize(15)
+                text.set_fontsize(18)
             
-            plt.title(f"{subfolder.capitalize()}", fontsize=15)
+            plt.title(f"Pair {pair_index} - {subfolder.capitalize()}", fontsize=18)
             plt.show()
