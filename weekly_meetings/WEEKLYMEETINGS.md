@@ -3,6 +3,7 @@
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
 
+* [20 November 2024](#date-20-november-2024)
 * [13 November 2024](#date-13-november-2024)
 * [06 November 2024](#date-06-november-2024)
 * [30 October 2024](#date-30-october-2024)
@@ -14,6 +15,45 @@
 * [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
+
+
+# Date: 20 November 2024
+
+
+
+#### Who did you help this week?
+
+    - N/A
+
+#### What helped you this week?
+
+    - 
+
+#### What did you achieve?
+
+    - 
+
+#### What did you struggle with?
+
+    - 
+
+#### What would you like to work on next week?
+
+    - 
+
+#### Where do you need help from Veronika?
+
+    - 
+
+#### What are the agreements after this meeting? 
+
+    - 
+
+#### Any other topics
+
+    - N/A
+
+
 
 
 # Date: 13 November 2024
@@ -48,7 +88,11 @@
 
 #### What are the agreements after this meeting? 
 
-    - To be filled after the meeting.
+    - If you want to show the difference of the methods you should have them in one plot with maybe subplots.
+    - Make a conclusion and based on that make plots.
+    - Try to do a waffle chart and not a venn diagram, and if the results follow kinda accross all the pairs than maybe for the others just make a table where you show the results.
+    - Update the flowchart, make it looks better and put the hash comparison in a different position because it looks like you are doing the hash comparison first or add order numbers.
+    - Change the citation in Overleaf to not just numbers but to "name et al [number]".
 
 #### Any other topics
 
