@@ -8,6 +8,7 @@ import pandas as pd
 import hashlib
 import matplotlib.pyplot as plt
 from matplotlib_venn import venn2_unweighted
+from pywaffle import Waffle
 
 # WARNINGS
 import warnings
@@ -488,10 +489,19 @@ def compare_hashes_for_pair(hashes_df, duplicate_dataset_name, original_dataset_
 
 
 
-#### IMAGE COUNT VENN DIAGRAM ####
+#### IMAGE FILENAME COMPARISON VENN DIAGRAM ####
 
 
 def plot_venn_for_all_pairs(all_comparison_results):
+    '''
+    Function to plot Venn diagrams for all pairs of datasets.
+    
+    Parameters:
+        - all_comparison_results: Dictionary containing the comparison results for all pairs of datasets.
+        
+    Returns:
+        - None
+    '''
     for pair_index, (comparison_results, folder_original, folder_duplicate) in all_comparison_results.items():
         folder_duplicate_update = os.path.basename(folder_duplicate).replace("-", " ")
         folder_original_update = os.path.basename(folder_original)
@@ -510,3 +520,47 @@ def plot_venn_for_all_pairs(all_comparison_results):
             
             plt.title(f"Pair {pair_index} - {subfolder.capitalize()}", fontsize=18)
             plt.show()
+            
+
+def plot_waffle_for_all_pairs(all_comparison_results):
+    '''
+    Function to plot Waffle charts for all pairs of datasets.
+    
+    Parameters:
+        - all_comparison_results: Dictionary containing the comparison results for all pairs of datasets.
+        
+    Returns:
+        - None
+    '''
+    for pair_index, (comparison_results, folder_original, folder_duplicate) in all_comparison_results.items():
+        folder_duplicate_update = os.path.basename(folder_duplicate).replace("-", " ")
+        folder_original_update = os.path.basename(folder_original)
+        
+        for subfolder, details in comparison_results.items():
+        
+            try:
+                data = {"Images Unique in Original": len(details["Missing images in Duplicate Folder"]), 'Common Images': len(details['Common Files']), 'Images Unique in Duplicate': len(details["Missing images in Original Folder"])}
+                
+                # repartition = [f"{k} ({int(v)} - {int(v / sum(data.values()) * 100)}%)" for k, v in data.items()]
+                
+                repartition = [f"{k} ({int(v)})" for k, v in data.items()]
+        
+                plt.figure()
+                fig = plt.figure(
+                    FigureClass=Waffle,
+                    rows=10,
+                    columns=10,
+                    figsize=(8, 8),
+                    values=data,
+                    title={
+                        'label': f"Pair {pair_index} - {subfolder.capitalize()}",
+                        'loc': 'left',
+                        'fontdict': {
+                            'fontsize': 17
+                        }
+                    },
+                    labels=repartition,
+                    legend={'loc': 'upper left', 'bbox_to_anchor': (1.05, 1), 'fontsize': 16}
+                )
+            except ZeroDivisionError:
+                print("")
