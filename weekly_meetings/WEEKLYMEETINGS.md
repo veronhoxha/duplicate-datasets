@@ -27,27 +27,34 @@
 
 #### What helped you this week?
 
-    - 
+    - N/A
 
 #### What did you achieve?
 
-    - 
+    - Wrote in overleaf.
+    - Made the waffle charts but still a bit unsure about the way of showing my results.
 
 #### What did you struggle with?
 
-    - 
+    - I really can't make my mind on what would be the best way to show my result so I am struggling with that a bit too much.
 
 #### What would you like to work on next week?
 
-    - 
+    - I will try to finish the whole project for next week, either way the last draft deadline is 2 weeks.
 
 #### Where do you need help from Veronika?
 
-    - 
+    - So you said 8 pages is the maximum for the paper, will 6-7 pages be acceptable as well or how it works ?
+    - Do I need to upload the data when I upload the code in LearnIT? It's a lot of data. Out of what I have right now I think only the code folder looks like needs to be uploaded together with the data folder that I have but without the ISIC datasets.
+    - Best design to reference papers ? 
+    - Can we disscus a bit my research question, my conclusion and the way my results are shown with tables and plots if they actually align with each-other ?
+    - I need to change my title of the research and contact SAP, what do you think of the current title of the paper?
+    - I am just a bit concern... Is what I have enough? Does it need more work?
+    - How will the exam be? Will there be needed a presentation to be done by my side in Slides? 
 
 #### What are the agreements after this meeting? 
 
-    - 
+    - To be filled after the meeting.
 
 #### Any other topics
 

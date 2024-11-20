@@ -35,12 +35,6 @@ Applying those methods to the images I have downloaded:
 - [x]  Generate hashes for the images.
 - [x]  Compare with original dataset, identify matches and near-matches.
 
-## **Baseline Model Tests**
-
-- [ ]  **Selecting two datasets:** Choosing the original dataset and one duplicate dataset from the sample.
-- [ ]  **Training and evaluating models:** Using a machine learning model (a CNN for image classification maybe).
-- [ ]  **Comparing outcomes:** Analysing results with performance metrics (accuracy, precision, recall, F1-score, and ROC curves.)
-
 ## Research (Overleaf) - Potential tasks
 
 - [ ]  Researching why duplicates exist on Kaggle - possible reasons maybe include ease of access, personal modifications, or lack of awareness.
