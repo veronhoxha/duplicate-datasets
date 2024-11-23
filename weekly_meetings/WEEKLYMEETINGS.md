@@ -57,14 +57,14 @@
     - 2nd of December 9am send the draft.
     - 6-7 pages its fine.
     - Leave the duplicate and the original folder but just leave one image so the code runs and mention it in the README.md.
-    - Use citep or citet.
+    - Use citep or citet for references.
     - I let Veronika know about my thesis next week.
     - Do the new table, check the picture in your phone, and just put one decimal after the precentage and calculate the perecentages in code.
     - Yes you can use the current title.
     - Update the waffle chart in the new design of the picture in your phone.
     - If you have different finding you do different subsections where the title of the subsection is the conculsion of that subsection, in the results section.
     - Similiar to Data in the Wild exam.
-    - Some references in the Future work and Disscusion, 20 references somewhere. Also references about background ...
+    - Look for some references in the Future work and Disscusion part, the research paper should have around 20 references.   Also you can add references about the background.
     - Make the new flowchart.
 
 #### Any other topics
