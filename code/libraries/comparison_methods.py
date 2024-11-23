@@ -9,6 +9,7 @@ import hashlib
 import matplotlib.pyplot as plt
 from matplotlib_venn import venn2_unweighted
 from pywaffle import Waffle
+import re
 
 # WARNINGS
 import warnings
@@ -184,7 +185,7 @@ def compare_image_dimensions_and_sizes(folder_duplicate, folder_original, result
         details = results[subfolder]
         common_files = details["Common Files"]
 
-        if os.path.exists(dir_duplicate) and os.path.exists(dir_original) and common_files:
+        if (os.path.exists(dir_duplicate) and os.path.exists(dir_original) and common_files) or (not os.path.exists(dir_duplicate) and os.path.exists(dir_original) and common_files) or (os.path.exists(dir_duplicate) and not os.path.exists(dir_original) and common_files):
            
             # getting dimensions
             dimensions_duplicate = get_image_dimensions(dir_duplicate, common_files)
@@ -311,14 +312,13 @@ def pixel_compare(image_path_a, image_path_b):
         return False
     
     
-def perform_pixel_comparison(folder_duplicate, folder_original, pair_index, subfolder):
+def perform_pixel_comparison(folder_duplicate, folder_original, subfolder):
     '''
     Function to perform pixel by pixel comparison of images in the duplicate and original folders.
     
     - Parameters:
         - folder_duplicate: Path to the folder containing duplicate images.
         - folder_original: Path to the folder containing original images.
-        - pair_index: Index of the pair of datasets being compared.
         - subfolder: Subfolder being compared (train, test, val).
         
     - Returns:
@@ -332,7 +332,12 @@ def perform_pixel_comparison(folder_duplicate, folder_original, pair_index, subf
         print(f"Either duplicate or original directory does not exist for subfolder {subfolder}.")
         return
     
-    result_desc_safe = f"Pair_{pair_index}_(Duplicate_Data_-_{os.path.basename(folder_duplicate)}_vs_Original_Data_-_{os.path.basename(folder_original)})"
+    folder_duplicate_update = os.path.basename(folder_duplicate).replace("-", " ")
+    folder_original_update = os.path.basename(folder_original)
+    match = re.search(r'201[0-9]', folder_duplicate_update)
+    substring = match.group()
+    
+    result_desc_safe = f"Data_{substring}_-_(Duplicate_Data_-_{os.path.basename(folder_duplicate)}_vs_Original_Data_-_{os.path.basename(folder_original)})"
     subfolder_safe = subfolder.replace(" ", "_")
     
     dimensions_csv = f"../data/size_dimension_comparison/all_dimensions_{result_desc_safe}_{subfolder_safe}.csv"
@@ -366,7 +371,7 @@ def perform_pixel_comparison(folder_duplicate, folder_original, pair_index, subf
         print("No images to compare for this subfolder.")
         return
     
-    result_desc_safe = f"Pair_{pair_index}_(Duplicate_Data_-_{os.path.basename(folder_duplicate)}_vs_Original_Data_-_{os.path.basename(folder_original)})"
+    result_desc_safe = f"Data_{substring}_-_(Duplicate_Data_-_{os.path.basename(folder_duplicate)}_vs_Original_Data_-_{os.path.basename(folder_original)})"
     subfolder_safe = subfolder.replace(" ", "_")
     csv_filename = f"../data/pixel_by_pixel_comparison/pixel_comparison_{result_desc_safe}_{subfolder_safe}.csv"
 
@@ -492,36 +497,6 @@ def compare_hashes_for_pair(hashes_df, duplicate_dataset_name, original_dataset_
 #### IMAGE FILENAME COMPARISON VENN DIAGRAM ####
 
 
-def plot_venn_for_all_pairs(all_comparison_results):
-    '''
-    Function to plot Venn diagrams for all pairs of datasets.
-    
-    Parameters:
-        - all_comparison_results: Dictionary containing the comparison results for all pairs of datasets.
-        
-    Returns:
-        - None
-    '''
-    for pair_index, (comparison_results, folder_original, folder_duplicate) in all_comparison_results.items():
-        folder_duplicate_update = os.path.basename(folder_duplicate).replace("-", " ")
-        folder_original_update = os.path.basename(folder_original)
-        
-        for subfolder, details in comparison_results.items():
-            plt.figure(figsize=(8, 8))
-            out = venn2_unweighted(subsets = (len(details["Missing images in Duplicate Folder"]), 
-                                               len(details["Missing images in Original Folder"]), 
-                                               len(details['Common Files'])),
-                                   set_labels = ("", ""))
-            
-            # for text in out.set_labels:
-            #     text.set_fontsize(14)
-            for text in out.subset_labels:
-                text.set_fontsize(18)
-            
-            plt.title(f"Pair {pair_index} - {subfolder.capitalize()}", fontsize=18)
-            plt.show()
-            
-
 def plot_waffle_for_all_pairs(all_comparison_results):
     '''
     Function to plot Waffle charts for all pairs of datasets.
@@ -532,35 +507,57 @@ def plot_waffle_for_all_pairs(all_comparison_results):
     Returns:
         - None
     '''
+
+    colors = {
+        "Missing images in Duplicate Folder": "#a0b39c",
+        "Common Files": "#f2cf8b", 
+        "Missing images in Original Folder": "#61618a"
+        
+    }
+
     for pair_index, (comparison_results, folder_original, folder_duplicate) in all_comparison_results.items():
         folder_duplicate_update = os.path.basename(folder_duplicate).replace("-", " ")
         folder_original_update = os.path.basename(folder_original)
+        match = re.search(r'201[0-9]', folder_duplicate_update)
+        substring = match.group()
         
         for subfolder, details in comparison_results.items():
-        
+            data = {
+                "Missing images in Duplicate Folder": len(details.get("Missing images in Duplicate Folder", [])),
+                "Common Files": len(details.get("Common Files", [])),
+                "Missing images in Original Folder": len(details.get("Missing images in Original Folder", [])),
+               
+            }
+            
+            total = sum(data.values())
+            if total == 0:
+                continue  
+            
+            rounded_data = {key: round(value / total * 100) for key, value in data.items()}
+
+            while sum(rounded_data.values()) < 100:
+                rounded_data[max(rounded_data, key=rounded_data.get)] += 1
+            while sum(rounded_data.values()) > 100:
+                rounded_data[max(rounded_data, key=rounded_data.get)] -= 1
+
             try:
-                data = {"Images Unique in Original": len(details["Missing images in Duplicate Folder"]), 'Common Images': len(details['Common Files']), 'Images Unique in Duplicate': len(details["Missing images in Original Folder"])}
-                
-                # repartition = [f"{k} ({int(v)} - {int(v / sum(data.values()) * 100)}%)" for k, v in data.items()]
-                
-                repartition = [f"{k} ({int(v)})" for k, v in data.items()]
-        
                 plt.figure()
                 fig = plt.figure(
                     FigureClass=Waffle,
                     rows=10,
                     columns=10,
                     figsize=(8, 8),
-                    values=data,
+                    values=rounded_data,
+                    colors=[colors[key] for key in rounded_data.keys()],
                     title={
-                        'label': f"Pair {pair_index} - {subfolder.capitalize()}",
+                        'label': f"Data {substring} - {subfolder.capitalize()} ({data['Missing images in Duplicate Folder']}, {data['Common Files']}, {data['Missing images in Original Folder']})",
                         'loc': 'left',
                         'fontdict': {
-                            'fontsize': 17
+                            'fontsize': 25
                         }
                     },
-                    labels=repartition,
-                    legend={'loc': 'upper left', 'bbox_to_anchor': (1.05, 1), 'fontsize': 16}
                 )
+                fig.axes[0].get_legend().remove()
+                plt.show() 
             except ZeroDivisionError:
                 print("")
