@@ -381,8 +381,8 @@ def perform_pixel_comparison(folder_duplicate, folder_original, subfolder):
         identical_images = pixel_comparison_df['Identical'].sum()
         different_images = total_images - identical_images
         print(f"    Total images compared: {total_images}")
-        print(f"    Identical images: {identical_images}")
-        print(f"    Different images: {different_images}")
+        print(f"    Identical images: {identical_images} - ({(identical_images / total_images * 100)})%")
+        print(f"    Different images: {different_images} - ({(different_images / total_images * 100)})%")
     
     else:
         # pixel-by-pixel comparison
@@ -417,8 +417,8 @@ def perform_pixel_comparison(folder_duplicate, folder_original, subfolder):
         
         # print(f"  {subfolder.capitalize()} -")
         print(f"    Total images compared: {total_images}")
-        print(f"    Identical images: {identical_images}")
-        print(f"    Different images: {different_images}")
+        print(f"    Identical images: {identical_images} - ({(identical_images / total_images * 100)})%")
+        print(f"    Different images: {different_images} - ({(different_images / total_images * 100)})%")
 
 
 

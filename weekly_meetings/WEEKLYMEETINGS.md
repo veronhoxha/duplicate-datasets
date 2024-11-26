@@ -2,7 +2,7 @@
 
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
-
+* [27 November 2024](#date-27-november-2024)
 * [20 November 2024](#date-20-november-2024)
 * [13 November 2024](#date-13-november-2024)
 * [06 November 2024](#date-06-november-2024)
@@ -15,6 +15,47 @@
 * [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
+
+
+
+# Date: 27 November 2024
+
+
+
+#### Who did you help this week?
+
+    - N/A
+
+#### What helped you this week?
+
+    - N/A
+
+#### What did you achieve?
+
+    - Updated the waffle charts as we agreed.
+    - Did some writing in overleaf.
+
+#### What did you struggle with?
+
+    - N/A
+
+#### What would you like to work on next week?
+
+    - Try to give that last push before sending the draft on Monday, so a bit of everything.
+
+#### Where do you need help from Veronika?
+
+    - I might have a question about the table I had to update ...
+
+#### What are the agreements after this meeting? 
+
+    - To be filled after the meeting.
+
+#### Any other topics
+
+    - I am not doing the thesis next semester.
+
+
 
 
 # Date: 20 November 2024
