@@ -43,6 +43,35 @@ def count_images_and_get_filenames(directory):
     return len(image_filenames), image_filenames
 
 
+def count_images_in_subfolders(main_directory):
+    '''
+    Function to count the number of images in specific subfolders within a main directory.
+
+    Parameters:
+        - main_directory: Path to the main directory containing subfolders.
+
+    Returns:
+        A dictionary with counts of images in 'train', 'test', 'val' subfolders.
+    '''
+    
+    subfolders = ['train', 'test', 'val'] 
+    image_extensions = {".jpg", ".jpeg", ".png"} 
+    counts = {}  
+    
+    for folder in subfolders:
+        directory = os.path.join(main_directory, folder)
+        if os.path.exists(directory):
+            count = 0
+            for file_name in os.listdir(directory):
+                if os.path.isfile(os.path.join(directory, file_name)) and os.path.splitext(file_name)[1].lower() in image_extensions:
+                    count += 1
+            counts[folder] = count
+        else:
+            counts[folder] = "N/A" 
+
+    return counts
+
+
 def compare_image_counts_and_filenames(folder_duplicate, folder_original):
     '''
     Function to compare the number of images and filenames in the duplicate and original folders.
