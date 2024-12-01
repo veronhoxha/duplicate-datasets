@@ -44,6 +44,7 @@ All data is located in the **"data"** folder, organized as follows:
 
 ### Additional Folders
 - `"images"`: Directory containing images used in the report.
+- `"report"`: Directory containing the report of the study in PDF format.
 
 ## Installation
 Ensure you have Python 3.12.6 installed (other versions may work, but this is the version used for this project). Then, install the required packages by running:
