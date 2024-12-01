@@ -35,15 +35,7 @@ Applying those methods to the images I have downloaded:
 - [x]  Generate hashes for the images.
 - [x]  Compare with original dataset, identify matches and near-matches.
 
-## Research (Overleaf) - Potential tasks
-
-- [ ]  Researching why duplicates exist on Kaggle - possible reasons maybe include ease of access, personal modifications, or lack of awareness.
-- [ ]  Discussing how data duplication might affect research quality.
-- [ ]  Analysing whether duplicates comply with the licensing terms of the original datasets.
-- [ ]  Identifying potential legal issues arising from unauthorised duplication.
-- [ ]  Carbon footprint of storing all those datasets in Kaggle.
-
 ### **Documenting limitations and assumptions**
 
-- [ ]  Acknowledging the limitations and if any assumptions.
+- [x]  Acknowledging the limitations and if any assumptions.
 

@@ -2,7 +2,7 @@
 
 **Note**: This material is partially derived from ["Whitaker Lab Project Management"](https://github.com/WhitakerLab/WhitakerLabProjectManagement) by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. Licensed under CC BY 4.0 by Veron Hoxha.
 
-* [27 November 2024](#date-27-november-2024)
+* [04 December 2024](#date-04-december-2024)
 * [20 November 2024](#date-20-november-2024)
 * [13 November 2024](#date-13-november-2024)
 * [06 November 2024](#date-06-november-2024)
@@ -15,6 +15,44 @@
 * [11 September 2024](#date-11-september-2024)
 * [04 September 2024](#date-04-september-2024)
 * [Template](#template-date-dd-month-yyyy)
+
+
+# Date: 04 December 2024
+
+
+
+#### Who did you help this week?
+
+    - N/A
+
+#### What helped you this week?
+
+    - N/A
+
+#### What did you achieve?
+
+    - 
+
+#### What did you struggle with?
+
+    - N/A
+
+#### What would you like to work on next week?
+
+    - 
+
+#### Where do you need help from Veronika?
+
+    - 
+
+#### What are the agreements after this meeting? 
+
+    - To be filled after the meeting.
+
+#### Any other topics
+
+    - 
+
 
 
 
@@ -49,11 +87,12 @@
 
 #### What are the agreements after this meeting? 
 
-    - To be filled after the meeting.
+    - Align the number of the tables to the right.
 
 #### Any other topics
 
     - I am not doing the thesis next semester.
+    - I went with the title I already have and told SAP to change it for me in the Diploma.
 
 
 
