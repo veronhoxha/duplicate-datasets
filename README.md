@@ -53,9 +53,9 @@ Ensure you have Python 3.12.6 installed (other versions may work, but this is th
 ## Usage
 To run the notebook and recreate results:
 1. Execute the three Jupyter Notebooks in the following order:
-  - `"01_isic_datasets_metadata.ipynb"`
-	- `"02_year_matching_on_name_initial_comparison.ipynb"`
-	- `"03_comparison_methods.ipynb"`
+    - `"01_isic_datasets_metadata.ipynb"`
+	  - `"02_year_matching_on_name_initial_comparison.ipynb"`
+	  - `"03_comparison_methods.ipynb"`
 
 ## Contributors
 - **Veron Hoxha** - Researcher. For questions or collaborations, contact: veho@itu.dk / veron.hoxha@yahoo.com
