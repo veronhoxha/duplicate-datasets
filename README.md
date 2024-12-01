@@ -1,8 +1,8 @@
-# Investigating Duplicate Medical Imaging Datasets on Kaggle
+# Duplication Detection in Medical Imaging Datasets: A Comparative Study of ISIC Data on Kaggle
 
 
 ## Introduction
-This repository hosts all the necessary resources for the Research Project titled ``"Investigating Duplicate Medical Imaging Datasets on Kaggle"``.
+This repository hosts all the necessary resources for the Research Project titled ``"Duplication Detection in Medical Imaging Datasets: A Comparative Study of ISIC Data on Kaggle"``.
 
 ## Table of Contents
 - [Introduction](#introduction)
