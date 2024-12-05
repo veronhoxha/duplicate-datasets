@@ -35,7 +35,7 @@ All data is located in the **"data"** folder, organized as follows:
 
 #### Subfolders:
 
-- `"duplicate_data"`: Contains duplicate datasets. Due to the large size of the datasets, only one image per dataset and set is included to be able to do a code execution.
+- `"duplicate_data"`: Contains duplicate datasets. Due to the large size of the datasets, only one image per dataset and set is included to be able to do a code execution. Note that if running the code with one image for dataset the results for the pixel-by-pixel comparison are derived from the original complete datasets, not just the single images shown here in the repo. The code is designed to read previously saved results from one full execution, as running a pixel-by-pixel comparison on the complete datasets is very time-consuming.
 - `"original_data"`: Contains original datasets. Similarly, only one image per dataset and set is included for the same reason.
 - `"hashes"`: Results from the hash comparison.
 - `"pixel_by_pixel_comparison"`: Results from the pixel-by-pixel comparison.
