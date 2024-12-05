@@ -1,5 +1,6 @@
 .DS_Store
 ~$*.docx
 .venv
-data/duplicate_data/
-data/original_data/
+# data/duplicate_data/
+# data/original_data/
+data-original/
