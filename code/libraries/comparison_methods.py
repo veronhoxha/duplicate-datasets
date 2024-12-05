@@ -19,6 +19,61 @@ warnings.filterwarnings("ignore", category=DeprecationWarning, module="pkg_resou
 ###################################################################################################
 
 
+#### CHECKING IF ALL IMAGES IN ARE 8-BIT ####
+
+def is_image_8_bit(image_path):
+    ''' 
+    Checks if an image is 8 bits per channel. 
+    '''
+    with Image.open(image_path) as img:
+        mode_to_bitdepth = {
+            '1': 1,
+            'L': 8,
+            'P': 8,
+            'RGB': 24, 
+            'RGBA': 32, 
+            'CMYK': 32,
+            'I': 32,
+            'F': 32
+        }
+        return mode_to_bitdepth.get(img.mode) in [24, 32, 8]
+
+
+def are_all_images_8_bit(folder_path):
+    '''
+    Checks if all images in specific subfolders within the given folder are 8 bits per channel.
+
+    Parameters:
+        - folder_path: Path to the folder containing subfolders "train", "test", and "val".
+
+    Returns:
+        - boolean: True if all images are 8 bits per channel, False otherwise.
+    '''
+    
+    subfolders = ["train", "test", "val"]
+    for subfolder in subfolders:
+        dir_path = os.path.join(folder_path, subfolder)
+        for root, dirs, files in os.walk(dir_path):
+            for file in files:
+                if file.lower().endswith(('.png', '.jpg', '.jpeg')):
+                    file_path = os.path.join(root, file)
+                    if not is_image_8_bit(file_path):
+                        return False
+    return True
+
+
+def compare_bit_depths(duplicate_folder, original_folder):
+    ''' 
+    Compares bit depth for two folders and prints if all images are 8-bit. 
+    '''
+    
+    result_duplicate = are_all_images_8_bit(duplicate_folder)
+    result_original = are_all_images_8_bit(original_folder)
+    print(f"Comparing bit depth for folders: {duplicate_folder} vs {original_folder}")
+    print(f"Duplicate folder all 8-bit: {result_duplicate}")
+    print(f"Original folder all 8-bit: {result_original}")
+
+
 #### IMAGE FILE NAME, SIZE AND DIMENSION COMPARISON #### 
 
 
