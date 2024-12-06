@@ -31,7 +31,7 @@
 
 #### What did you achieve?
 
-    - 
+    - Updating the report based on the feedback.
 
 #### What did you struggle with?
 
@@ -39,11 +39,11 @@
 
 #### What would you like to work on next week?
 
-    - 
+    - Final modifications on the report.
 
 #### Where do you need help from Veronika?
 
-    - 
+    - N/A
 
 #### What are the agreements after this meeting? 
 
@@ -51,7 +51,7 @@
 
 #### Any other topics
 
-    - 
+    - N/A
 
 
 
