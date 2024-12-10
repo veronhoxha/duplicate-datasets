@@ -47,8 +47,22 @@ All data is located in the **"data"** folder, organized as follows:
 - `"report"`: Directory containing the report of the study in PDF format.
 
 ## Installation
-Ensure you have Python 3.12.6 installed (other versions may work, but this is the version used for this project). Then, install the required packages by running:
-- `pip install -r requirements.txt`
+Prerequisites: Ensure Python 3.12.6 is installed on your machine. Other versions might work, but this project was developed with 3.12.6.
+
+**1. Create and Activate a Virtual Environment**
+
+Create a Virtual Environment in the root directory of this project by running the following commands:
+  - For macOS/Linux:
+      - ``python3 -m venv .venv``
+      - ``source .venv/bin/activate``
+  - For Windows:
+      - ``python -m venv .venv``
+      - ``.venv\Scripts\activate``
+
+**2. Install Required Packages**
+
+When the virtual environment is activated, install all necessary packages by running:
+  - `pip install -r requirements.txt`
 
 ## Usage
 To run the notebook and recreate results:
